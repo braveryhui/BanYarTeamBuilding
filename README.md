@@ -1,3 +1,8 @@
-# My Awesome Book
+  # 引言
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+本书主要为团队成员学习和练习使用
+
+主要涉及几个方面
+
+
+ 
