@@ -14,3 +14,9 @@ system("git add .;git commit -m 'checkout v{$rollbackVersion}';git pull;git chec
 shell_exec("rsync -avz --delete /App/gitHub/test/ /App/gitHub/testbak/");
 ```
 
+
+```
+<?php 
+echo phpinfo();
+```
+
