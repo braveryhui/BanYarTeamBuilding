@@ -3,5 +3,5 @@
 * [引言](README.md)
 * [操作系统](chapter1.md)
 * [OOP思想](oopsi_xiang.md)
-* 架构模式
+* [架构模式](jia_gou_mo_shi.md)
 
