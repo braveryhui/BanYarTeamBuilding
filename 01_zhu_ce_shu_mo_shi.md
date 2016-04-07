@@ -26,3 +26,25 @@ class Register
 }
 
 ```
+
+```
+<?php
+namespace Imooc;
+class Register
+{
+  protected static $objTree;
+  static function set($alias,$obj)
+  {
+      self::$objTree[$alias] = $obj;
+  }
+  static function getObj($name)
+  {
+    return self::$objTree[$name];
+  }
+  static function _unset($name)
+  {
+     unset(self::$objTree[$name]);
+  }
+}
+
+```
