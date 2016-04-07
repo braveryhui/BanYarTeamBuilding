@@ -8,6 +8,7 @@
 * [架构模式](jia_gou_mo_shi.md)
    * [MVC](mvc.md)
 * [设计模式](she_ji_mo_shi.md)
+   * 01 注册树模式
 * [代码整洁](dai_ma_zheng_ji.md)
 * [重构](zhong_gou.md)
 
