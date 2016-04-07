@@ -48,3 +48,10 @@ class Register
 }
 
 ```
+
+
+1.下载gitbook 
+2.新建github同步库 并且是公开的
+3.gitbook上配置 github的库并授权 
+4.gitbook－cli 生成pdf和epub mobi的电子书格式 
+5.
