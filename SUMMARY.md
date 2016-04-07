@@ -11,5 +11,5 @@
    * [01 注册树模式](01_zhu_ce_shu_mo_shi.md)
 * [代码整洁](dai_ma_zheng_ji.md)
 * [重构](zhong_gou.md)
-* PHP Snipets
+* [PHP Snipets](php_snipets.md)
 
