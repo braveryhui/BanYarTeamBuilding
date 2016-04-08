@@ -27,6 +27,11 @@ class Register
 }
 
 ```
+###调用
+```
+Register::set('db',$db);  #注册进全局树
+db = Imooc\Register::getObj('db'); ＃根据K-V取出对象
+```
 
 
 
