@@ -9,7 +9,7 @@
    IOS：UserDefualts,UIApplication 等
    Android:sharePerference 等
 核心点
-1.复用
+1.复用 （全局唯一 也可以有多个实例）
 2.防止外部调用构造方法
 3.防止被clone
 4.防止被反序列化
