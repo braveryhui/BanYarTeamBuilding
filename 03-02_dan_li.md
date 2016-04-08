@@ -8,7 +8,11 @@
    数据库全局只返回一个实例
    IOS：UserDefualts,UIApplication 等
    Android:sharePerference 等
-   
+核心点
+1.复用
+2.防止外部调用构造方法
+3.防止被clone
+4.防止被反序列化
 ```
 
 <?php
