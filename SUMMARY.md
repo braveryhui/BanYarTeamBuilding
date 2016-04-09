@@ -10,7 +10,7 @@
    * [03里氏代换原则](03li_shi_dai_huan_yuan_ze.md)
    * [04接口隔离原则](04jie_kou_ge_li_yuan_ze.md)
    * [05依赖倒置原则](05yi_lai_dao_zhi_yuan_ze.md)
-   * 06合成/聚合复用原则
+   * [06合成/聚合复用原则](06he_6210_ju_he_fu_yong_yuan_ze.md)
    * 07迪米特法则
    * [重写 & 重载 & 多态](01_zhong_xie_&_zhong_zai_&_duo_tai.md)
    * [接口&抽象类&类](03_jie_53e326_chou_xiang_7c7b26_lei.md)
