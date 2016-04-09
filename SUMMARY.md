@@ -12,7 +12,7 @@
 * [设计模式](she_ji_mo_shi.md)
    * [01 注册树模式](01_zhu_ce_shu_mo_shi.md)
    * [02 链式操作模式](02_lian_shi_cao_zuo_mo_shi.md)
-   * [03 数据对象映射模式－ORM](03_shu_ju_dui_xiang_ying_she_mo_shi_ff0d_orm.md)
+   * [03 数据对象映射模式](03_shu_ju_dui_xiang_ying_she_mo_shi_ff0d_orm.md)
    * [对象创建](03_dui_xiang_chuang_jian_gong_chang_dan_li_yuan_xi.md)
        * [03-01 工厂&抽象工厂](gong_538226_chou_xiang_gong_chang.md)
        * [03-02 单例](03-02_dan_li.md)
