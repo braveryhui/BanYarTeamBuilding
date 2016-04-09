@@ -6,7 +6,7 @@
 * [编译原理](bian_yi_yuan_li.md)
 * [OOP思想](oopsi_xiang.md)
    * [01单一权责原则](dan_yi_quan_ze_yuan_ze.md)
-       * 开放闭合原则
+       * [开放闭合原则](kai_fang_bi_he_yuan_ze.md)
    * [02 重写 & 重载 & 多态](01_zhong_xie_&_zhong_zai_&_duo_tai.md)
    * [03 接口&抽象类&类](03_jie_53e326_chou_xiang_7c7b26_lei.md)
 * [架构模式](jia_gou_mo_shi.md)
