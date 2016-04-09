@@ -74,6 +74,11 @@ $page = new IndexPage();
 $page->setStrategy($strategyObj);
 $page->index();
 ```
+####输出 
+```
+Female AD ..
+Female CateGory..
+```
 
 
 
