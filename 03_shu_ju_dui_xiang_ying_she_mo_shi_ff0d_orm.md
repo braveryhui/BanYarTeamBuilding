@@ -28,7 +28,7 @@ PHP
 
 > 1. Eloquent ORM  －laravel用
 2. Doctrine
-3. mongodm 等
+3. mongodm 等o
 
 
 
