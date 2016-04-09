@@ -16,7 +16,7 @@
        * [03-01 工厂&抽象工厂](gong_538226_chou_xiang_gong_chang.md)
        * [03-02 单例](03-02_dan_li.md)
    * [算法封装](suan_fa_feng_zhuang.md)
-       * 01 策略模式
+       * [01 策略模式](01_ce_lve_mo_shi.md)
 * [代码整洁](dai_ma_zheng_ji.md)
 * [重构](zhong_gou.md)
 * [PHP Snipets](php_snipets.md)
