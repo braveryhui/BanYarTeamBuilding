@@ -12,6 +12,7 @@
    * [05依赖倒置原则](05yi_lai_dao_zhi_yuan_ze.md)
    * [重写 & 重载 & 多态](01_zhong_xie_&_zhong_zai_&_duo_tai.md)
    * [接口&抽象类&类](03_jie_53e326_chou_xiang_7c7b26_lei.md)
+   * 06合成/聚合复用原则
 * [架构模式](jia_gou_mo_shi.md)
    * [MVC](mvc.md)
    * MVP
