@@ -51,7 +51,7 @@ class FemaleStrategy implements IUserStrategy
 }
 ```
 
-###调用
+###浏览器访问根据参数调用
 ```
 class IndexPage
 {
@@ -72,8 +72,7 @@ $page = new IndexPage();
 $page->setStrategy($strategyObj);
 $page->index();
 ```
-###访问
-http://localhost/index.php?sex=female
+
 
 
 
