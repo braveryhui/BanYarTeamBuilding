@@ -10,20 +10,17 @@
 
 
 
+
 > 1.控制器和视图之间是策略模式的关系，同样的数据可以展现出来不同的视图 IOS中数据源－TableviewCellAndroid中的Adapter－listItem
-> 
-2.需要根据类型封装各种复杂的算法和流程
+ 
 
-3.多个条件语句if－else或switch 中每个条件判断都需要复杂的流程的时候
->
+> 2.需要根据类型封装各种复杂的算法和流程
 
 
 
 
-
-
+> 3.多个条件语句if－else或switch 中每个条件判断都需要复杂的流程的时候
   
-    
 ###PHP实现
 ####IUserStrategy.php
 ```
