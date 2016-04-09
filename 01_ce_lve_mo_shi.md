@@ -53,6 +53,7 @@ class FemaleStrategy implements IUserStrategy
 
 ###浏览器访问根据参数调用
 ```
+http://localhost/index.php?sex=female
 class IndexPage
 {
   public $strategy;
