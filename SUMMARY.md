@@ -20,7 +20,7 @@
    * [对象创建](03_dui_xiang_chuang_jian_gong_chang_dan_li_yuan_xi.md)
        * [工厂&抽象工厂](gong_538226_chou_xiang_gong_chang.md)
        * [单例](03-02_dan_li.md)
-       * 原型
+       * [原型](yuan_xing.md)
    * [算法封装](suan_fa_feng_zhuang.md)
        * [04-01 策略模式](01_ce_lve_mo_shi.md)
 * [代码整洁](dai_ma_zheng_ji.md)
