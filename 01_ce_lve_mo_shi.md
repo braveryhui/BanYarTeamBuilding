@@ -52,6 +52,26 @@ class FemaleStrategy implements IUserStrategy
 ```
 
 ###调用
+```
+class IndexPage
+{
+  public $strategy;
+  function index()
+  {
+    $this->strategy->showAD();
+    $this->strategy->showCategory();
+  }
+  function setStrategy(\Banyar\Strategy\IUserStrategy $strategy)
+  {
+     $this->strategy = $strategy;
+  }
+}
+$strategyString ="Banyar\\Strategy\\".ucfirst($_GET['sex'].'Strategy');
+$strategyObj = new $strategyString();
+$page = new IndexPage();
+$page->setStrategy($strategyObj);
+$page->index();
+```
 
 
 
