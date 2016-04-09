@@ -9,6 +9,7 @@
    * [02开放闭合原则](kai_fang_bi_he_yuan_ze.md)
    * [重写 & 重载 & 多态](01_zhong_xie_&_zhong_zai_&_duo_tai.md)
    * [接口&抽象类&类](03_jie_53e326_chou_xiang_7c7b26_lei.md)
+   * 03里氏代换原则
 * [架构模式](jia_gou_mo_shi.md)
    * [MVC](mvc.md)
    * MVP
