@@ -16,7 +16,7 @@ interface IUserStrategy
     function showCategory();
 }
 ```
-####
+####MaleStrategy.php
 ```
 <?php
 namespace Banyar\Strategy;
@@ -32,6 +32,23 @@ class MaleStrategy implements IUserStrategy
     }
 }
 
+```
+####
+```
+<?php
+namespace Banyar\Strategy;
+
+class FemaleStrategy implements IUserStrategy
+{
+  public function showAD()
+  {
+      echo 'Female AD ..<br />';
+  }
+  public function showCategory()
+  {
+    echo 'Female CateGory..<br />';
+  }
+}
 ```
 
 
