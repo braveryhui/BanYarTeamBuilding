@@ -26,7 +26,7 @@
 6. 在实现多接口的时候一定要避免方法名的重复。
 
 
-###写法
+###PHP实现
 ```
 <?php
 interface IDataBase
