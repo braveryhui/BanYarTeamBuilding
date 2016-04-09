@@ -29,5 +29,7 @@
 
 
 参考链接
-[](http://blog.csdn.net/chenssy/article/details/12858267)
+[java](http://blog.csdn.net/chenssy/article/details/12858267)
+[PHP](http://blog.csdn.net/klinghr/article/details/5212976)
+《细说PHP》
 
