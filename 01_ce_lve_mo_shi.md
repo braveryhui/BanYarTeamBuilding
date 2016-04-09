@@ -51,6 +51,8 @@ class FemaleStrategy implements IUserStrategy
 }
 ```
 
+###在index.php中大调用
+
 
 
 
