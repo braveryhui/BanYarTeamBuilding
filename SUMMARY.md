@@ -7,7 +7,7 @@
 * [OOP思想](oopsi_xiang.md)
    * [01单一权责原则](dan_yi_quan_ze_yuan_ze.md)
    * [02开放闭合原则](kai_fang_bi_he_yuan_ze.md)
-   * 03里氏代换原则
+   * [03里氏代换原则](03li_shi_dai_huan_yuan_ze.md)
    * [04接口隔离原则](04jie_kou_ge_li_yuan_ze.md)
    * [05依赖倒置原则](05yi_lai_dao_zhi_yuan_ze.md)
    * 06合成/聚合复用原则
