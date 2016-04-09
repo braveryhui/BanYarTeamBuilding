@@ -101,10 +101,6 @@ Female CateGory..
 > 解耦、实现控制翻转、依赖倒置
 
 
-
-
-
-
 参考
 [Rango大话设计模式](http://www.imooc.com/video/4906)
 《Object-c编程之道》
