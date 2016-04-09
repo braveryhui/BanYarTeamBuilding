@@ -14,7 +14,7 @@
          2.接口中可以定义“成员变量”，或者说是不可变的常量，因为接口中的“成员变量”会自动变为为public static final。可以通过类命名直接访问：ImplementClass.name。
          3.接口中不存在实现的方法。
          4.实现接口的非抽象类必须要实现该接口的所有方法。抽象类可以不用实现。
-         5.不能使用new操作符实例化一个接口，但可以声明一个接口变量，该变量必须引用（refer to)一个实现该接口的类的对象。可以使用 instanceof 检查一个对象是否实现了某个特定的接口。例如：if(anObject instanceof Comparable){}。PHP中同样用instanceof IOS 使用ismemberof
+         5.不能使用new操作符实例化一个接口，但可以声明一个接口变量，该变量必须引用（refer to)一个实现该接口的类的对象。可以使用 instanceof 检查一个对象是否实现了某个特定的接口。例如：if(anObject instanceof Comparable){}。PHP中同样用instanceof IOS 使用isKindOf
          6.在实现多接口的时候一定要避免方法名的重复。
 ```
 ###是抽象类?
