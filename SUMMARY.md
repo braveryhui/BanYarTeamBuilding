@@ -1,6 +1,7 @@
 # Summary
 
 * [引言](README.md)
+   * 团队组建过程中的问题
 * [操作系统](chapter1.md)
 * [编译原理](bian_yi_yuan_li.md)
 * [OOP思想](oopsi_xiang.md)
