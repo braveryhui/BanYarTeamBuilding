@@ -33,7 +33,7 @@ class MaleStrategy implements IUserStrategy
 }
 
 ```
-####
+####FemaleStrategy
 ```
 <?php
 namespace Banyar\Strategy;
