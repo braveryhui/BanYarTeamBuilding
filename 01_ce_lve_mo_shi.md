@@ -72,6 +72,8 @@ $page = new IndexPage();
 $page->setStrategy($strategyObj);
 $page->index();
 ```
+###访问
+http://localhost/index.php?sex=female
 
 
 
