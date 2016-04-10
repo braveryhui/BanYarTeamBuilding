@@ -10,7 +10,7 @@
 
 
 ###PHP写法
-####Demo01
+####实例01
 ```
 <?php
 namespace Imooc;
