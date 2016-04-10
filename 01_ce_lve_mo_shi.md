@@ -8,8 +8,6 @@
 ###策略模式的使用场景？
 
 
-
-
 > 1.控制器和视图之间是策略模式的关系，同样的数据可以展现出来不同的视图 IOS中数据源－TableviewCellAndroid中的Adapter－listItem
  
 
