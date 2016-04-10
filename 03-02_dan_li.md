@@ -78,7 +78,7 @@ class Singleton
  ?>
 
 ```
-多数实际的应用场景会是抽象工厂和单例的结合使用，TP是用的创建单例的公共方法，
+####多数实际的应用场景会是抽象工厂和单例的结合使用，TP是用的创建单例的公共方法，
 
 ```
 <?php
@@ -139,3 +139,39 @@ print_r(FirstProduct::getInstance()->a);
 print_r(SecondProduct::getInstance()->a);
 // array(2, 4)
 ```
+
+#####Thinkphp common文件的functions.php中获取单例的方法
+
+```
+/**
+ * 取得对象实例 支持调用类的静态方法
+ * @param string $name 类名
+ * @param string $method 方法名，如果为空则返回实例化对象
+ * @param array $args 调用参数
+ * @return object
+ */
+function get_instance_of($name, $method='', $args=array()) {
+    static $_instance = array();
+    $identify = empty($args) ? $name . $method : $name . $method . to_guid_string($args);
+    if (!isset($_instance[$identify])) {
+        if (class_exists($name)) {
+            $o = new $name();
+            if (method_exists($o, $method)) {
+                if (!empty($args)) {
+                    $_instance[$identify] = call_user_func_array(array(&$o, $method), $args);
+                } else {
+                    $_instance[$identify] = $o->$method();
+                }
+            }
+            else
+                $_instance[$identify] = $o;
+        }
+        else
+            halt(L('_CLASS_NOT_EXIST_') . ':' . $name);
+    }
+    return $_instance[$identify];
+}
+```
+
+参考链接
+[php常用设计模式](http://www.admin10000.com/document/7115.html)
