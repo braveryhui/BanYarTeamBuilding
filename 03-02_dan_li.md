@@ -174,4 +174,6 @@ function get_instance_of($name, $method='', $args=array()) {
 ```
 
 参考链接
+
+
 [php常用设计模式](http://www.admin10000.com/document/7115.html)
