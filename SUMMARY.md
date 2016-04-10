@@ -16,7 +16,7 @@
    * [接口&抽象类&类](03_jie_53e326_chou_xiang_7c7b26_lei.md)
 * [架构模式](jia_gou_mo_shi.md)
    * [MVC](mvc.md)
-   * MVP
+   * [MVP](mvp.md)
    * MVVM
    * VIPER
 * [设计模式](she_ji_mo_shi.md)
