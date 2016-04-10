@@ -13,8 +13,10 @@
 语言类型 （动态语言和静态语言）
       * 动态语言特性 编译原理 执行过程
       * 静态语言特性 编译原理  执行过程
-动态静态 链接库
-
+库函数
+   javaSDK
+   PHP  SPL
+   IOS SDK
 数据结构函数
 
 虚拟机 比如php zendVM javaVirtualMechina
