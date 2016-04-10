@@ -203,6 +203,13 @@ return shared##className; \
 DEFINE_SINGLETON_FOR_CLASS(testSingleton)  
 @end   
 ```
+.m
+```
+#import <Foundation/Foundation.h>  
+@interface testSingleton : NSObject  
+DEFINE_SINGLETON_FOR_HEADER(testSingleton);  
+@end 
+```
 参考链接
 
 
