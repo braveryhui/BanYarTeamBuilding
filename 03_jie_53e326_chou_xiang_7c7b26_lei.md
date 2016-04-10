@@ -17,7 +17,7 @@
 
 ###如何正确使用？
 
-> 1. Interface的方所有法访问权限自动被声明为public。确切的说只能为public，当然你可以显示的声明为protected、private，但是编译会出错
+> 1. Interface的方所有法访问权限自动被声明为public。确切的说只能为public**实现接口的类中接口都得方法也必须事public**，当然你可以显示的声明为protected、private，但是编译会出错
 2. 接口中可以定义“成员变量”，或者说是不可变的常量，因为接口中的“成员变量”会自动变为为public static final。可以通过类命名直接访问：ImplementClass.name。
 3. 接口中不存在实现的方法。
 4. 实现接口的非抽象类必须要实现该接口的所有方法。抽象类可以不用实现。
