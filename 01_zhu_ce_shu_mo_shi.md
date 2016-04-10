@@ -36,7 +36,41 @@ Register::set('db',$db);  #注册进全局树
 db = Imooc\Register::getObj('db'); ＃根据K-V取出对象
 ```
 
+####实例02
+```
+<?php
+/**
+* Registry class
+*/
+class Package {
+ 
+    protected static $data = array();
+ 
+    public static function set($key, $value) {
+        self::$data[$key] = $value;
+    }
+ 
+    public static function get($key) {
+        return isset(self::$data[$key]) ?     self::$data[$key] : null;
+    }
+ 
+    final public static function removeObject($key) {
+        if (array_key_exists($key, self::$data)) {
+            unset(self::$data[$key]);
+        }
+    }
+}
+ 
+ 
+Package::set('name', 'Package name');
+ 
+print_r(Package::get('name'));
+```
 
+参考：
+[PHP常用设计模式](http://www.admin10000.com/document/7115.html)
+
+[gitHub上php设计模式](https://github.com/domnikl/DesignPatternsPHP)
 
 
 
