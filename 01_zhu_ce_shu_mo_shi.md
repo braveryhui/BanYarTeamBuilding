@@ -68,7 +68,7 @@ Package::set('name', 'Package name');
 print_r(Package::get('name'));
 ```
 ####实力03 注册树＋工厂
-
+这种写法可以保存一个初始化对象的状态 
 ```
 <?php
  
