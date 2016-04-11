@@ -40,7 +40,7 @@ class ConcretePrototype implements Prototype {
 //客户端  
 class Client {  
       
-    public static function main(){  
+    public static function getOBJ(){  
           
         $pro = new ConcretePrototype('prototype');  
         $pro2 = $pro->copy();  
