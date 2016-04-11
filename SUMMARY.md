@@ -5,6 +5,7 @@
    * [团队工作流程](ren_wu_fen_jie_he_guan_li.md)
    * [团队约束](tuan_dui_yue_shu.md)
 * [操作系统](chapter1.md)
+   * 深入理解操作系统
 * [计算机领域内名言](ji_suan_ji_ling_yu_nei_ming_yan.md)
 * [语言的通用结构](yi_men_yu_yan.md)
 * [编译原理](bian_yi_yuan_li.md)
