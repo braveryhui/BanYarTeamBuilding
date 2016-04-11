@@ -40,7 +40,7 @@ class ConcretePrototype implements Prototype {
 //客户端  
 class Client {  
       
-    public static function getOBJ(){  
+    public static function getCloneObj(){  
           
         $pro = new ConcretePrototype('prototype');  
         $pro2 = $pro->copy();  
@@ -49,6 +49,6 @@ class Client {
     }   
 }  
   
-Client::main();
+Client::getCloneObj();
 
 ```
