@@ -64,12 +64,9 @@ class  Object
     self::loadAction();
   }
 }
-
-$prototype = new Banyar\Object();
+$prototype = new Object();
 $prototype::init();
-echo "------------<br/ >";
 $obj01 = clone $prototype;
 $obj02 = clone $prototype;
 $obj01::test();
-echo '---------<br />';
 $obj02::test();
