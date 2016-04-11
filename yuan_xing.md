@@ -54,7 +54,7 @@ Client::getCloneObj();
 
 ```
 ####实例02
-
+```
 class  Object
 {
   static function  init()
@@ -70,3 +70,4 @@ $obj01 = clone $prototype;
 $obj02 = clone $prototype;
 $obj01::test();
 $obj02::test();
+```
