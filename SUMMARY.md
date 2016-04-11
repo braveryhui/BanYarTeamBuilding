@@ -7,7 +7,7 @@
 * [计算机领域内名言](ji_suan_ji_ling_yu_nei_ming_yan.md)
 * [操作系统](chapter1.md)
    * 深入理解操作系统
-   * 计算机领域内鸡汤
+   * [计算机领域内鸡汤](ji_suan_ji_ling_yu_nei_ji_tang.md)
 * [语言的通用结构](yi_men_yu_yan.md)
 * [编译原理](bian_yi_yuan_li.md)
 * [OOP思想](oopsi_xiang.md)
