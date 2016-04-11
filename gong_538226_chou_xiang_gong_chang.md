@@ -12,7 +12,7 @@
 ###PHP写法
 
 
-#####工厂
+#####工厂实例01
 ```
 <?php
  
@@ -62,7 +62,56 @@ print_r($firstProduct->getName());
 print_r($secondProduct->getName());
 // Second product
 ```
-
+####工厂实例02
+```
+<?php
+ 
+interface Product {
+    public function getName();
+}
+ 
+class Factory {
+ 
+    protected $firstProduct;
+    protected $secondProduct;
+ 
+    public function getFirstProduct() {
+        if (!$this->firstProduct) {
+            $this->firstProduct = new FirstProduct();
+        }
+        return $this->firstProduct;
+    }
+ 
+    public function getSecondProduct() {
+        if (!$this->secondProduct) {
+            $this->secondProduct = new SecondProduct();
+        }
+        return $this->secondProduct;
+    }
+}
+ 
+class FirstProduct implements Product {
+    public function getName() {
+        return 'The first product';
+    }
+}
+ 
+class SecondProduct implements Product {
+    public function getName() {
+        return 'Second product';
+    }
+}
+ 
+ 
+$factory = new Factory();
+ 
+print_r($factory->getFirstProduct()->getName());
+// The first product
+print_r($factory->getSecondProduct()->getName());
+// Second product
+print_r($factory->getFirstProduct()->getName());
+// The first product
+```
 #####抽象工厂
 ```
 在很多情况下，需要为系统中的多个类创建单例的构造方式，这样，可以建立一个通用的抽象父工厂方法：
