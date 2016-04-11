@@ -27,6 +27,7 @@
    * [MVVM](mvvm.md)
    * [VIPER](viper.md)
    * SOA
+   * AOP
 * [设计模式](she_ji_mo_shi.md)
    * [01 注册树模式](01_zhu_ce_shu_mo_shi.md)
    * [02 链式操作模式](02_lian_shi_cao_zuo_mo_shi.md)
