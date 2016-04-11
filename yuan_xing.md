@@ -37,7 +37,7 @@ class ConcretePrototype implements Prototype {
     }  
 }  
   
-//客户端  
+//调用 
 class Client {  
       
     public static function getCloneObj(){  
