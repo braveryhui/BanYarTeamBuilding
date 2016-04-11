@@ -67,6 +67,52 @@ Package::set('name', 'Package name');
  
 print_r(Package::get('name'));
 ```
+####
+```
+<?php
+ 
+class Product {
+ 
+    protected $id;
+ 
+    public function __construct($id) {
+        $this->id = $id;
+    }
+ 
+    public function getId() {
+        return $this->id;
+    }
+}
+ 
+class Factory {
+ 
+    protected static $products = array();
+ 
+    public static function pushProduct(Product $product) {
+        self::$products[$product->getId()] = $product;
+    }
+ 
+    public static function getProduct($id) {
+        return isset(self::$products[$id]) ? self::$products[$id] : null;
+    }
+ 
+    public static function removeProduct($id) {
+        if (array_key_exists($id, self::$products)) {
+            unset(self::$products[$id]);
+        }
+    }
+}
+ 
+ 
+Factory::pushProduct(new Product('first'));
+Factory::pushProduct(new Product('second'));
+ 
+print_r(Factory::getProduct('first')->getId());
+// first
+print_r(Factory::getProduct('second')->getId());
+// second
+
+```
 
 参考：
 [PHP常用设计模式](http://www.admin10000.com/document/7115.html)
