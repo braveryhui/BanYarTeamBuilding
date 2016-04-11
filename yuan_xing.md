@@ -54,6 +54,17 @@ Client::getCloneObj();
 
 ```
 ####实例02
+
+class  Object
+{
+  static function  init()
+  {
+    self::loadBall();
+    self::loadCavase();
+    self::loadAction();
+  }
+}
+
 $prototype = new Banyar\Object();
 $prototype::init();
 echo "------------<br/ >";
