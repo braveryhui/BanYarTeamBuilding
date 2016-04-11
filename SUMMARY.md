@@ -5,6 +5,7 @@
    * [团队组建过程中的问题](tuan_dui_zu_jian_guo_cheng_zhong_de_wen_ti.md)
    * [团队工作流程](ren_wu_fen_jie_he_guan_li.md)
    * [团队约束](tuan_dui_yue_shu.md)
+   * 团队新成员入职流程
 * [操作系统](chapter1.md)
    * 深入理解操作系统
    * [计算机领域内名言](ji_suan_ji_ling_yu_nei_ji_tang.md)
