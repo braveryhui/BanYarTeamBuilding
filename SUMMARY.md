@@ -4,7 +4,7 @@
    * [团队组建过程中的问题](tuan_dui_zu_jian_guo_cheng_zhong_de_wen_ti.md)
    * [语言的通用结构](yi_men_yu_yan.md)
    * [计算机领域内名言](ji_suan_ji_ling_yu_nei_ming_yan.md)
-   * 任务分解和管理
+   * [任务分解和管理](ren_wu_fen_jie_he_guan_li.md)
 * [操作系统](chapter1.md)
 * [编译原理](bian_yi_yuan_li.md)
 * [OOP思想](oopsi_xiang.md)
