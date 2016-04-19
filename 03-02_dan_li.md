@@ -185,7 +185,7 @@ function get_instance_of($name, $method='', $args=array()) {
  1.常规写法
  *********/
 // 获取一个 sharedInstance 实例,如果有必要的话,实例化一个
-  这个是实例化的线程安全并不是调用的时候线程安全 
+  这个是实例化的线程安全并不是调用的时候线程安全 ，IOS里面处理单例的线程安全 GCD+
  
 + (BVNonARCSingleton *)sharedInstance {
     if (sharedInstance == nil) {
@@ -216,6 +216,10 @@ function get_instance_of($name, $method='', $args=array()) {
 - (id)copyWithZone:(NSZone *)zone
 {
     return self;
+}
+- (id)initWithCoder:(NSCoder*)decoder    
+  {    
+    
 }
 // 什么也不做——该单例并不需要一个引用计数(retain counter)
 - (id)retain {
