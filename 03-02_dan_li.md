@@ -37,7 +37,6 @@
 ###PHP写法
 
 ```
-
 <?php
 namespace Banyar;
 class Singleton
