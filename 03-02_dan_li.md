@@ -12,6 +12,7 @@
 >    数据库全局只返回一个实例
    IOS：UserDefualts,UIApplication 等
    Android:sharePerference 等
+   PHP:数据库连接 全局注册配置等 
    
 
 
