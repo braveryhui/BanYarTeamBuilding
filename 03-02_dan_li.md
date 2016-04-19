@@ -268,6 +268,5 @@ DEFINE_SINGLETON_FOR_HEADER(testSingleton);
 
 
 [php常用设计模式](http://www.admin10000.com/document/7115.html)
-
 [IOS单例宏](http://blog.csdn.net/totogo2010/article/details/8373642)
 [IOS单例的实现](https://github.com/BeyondVincent/ios_patterns)
