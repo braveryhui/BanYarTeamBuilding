@@ -185,6 +185,8 @@ function get_instance_of($name, $method='', $args=array()) {
  1.常规写法
  *********/
 // 获取一个 sharedInstance 实例,如果有必要的话,实例化一个
+  这个是实例化的线程安全并不是调用的时候线程安全 
+ 
 + (BVNonARCSingleton *)sharedInstance {
     if (sharedInstance == nil) {
         sharedInstance = [[super allocWithZone:NULL] init];
