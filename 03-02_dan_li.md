@@ -6,7 +6,6 @@
 > 
 > 多数Web端和APP端的都会把单例做成一个抽象工厂（Thinkphp的get_instance_of的全局方法）或者宏定义（IOS & Android）
 
-
 ###使用场景
 
 >    数据库全局只返回一个实例
