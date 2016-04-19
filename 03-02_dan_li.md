@@ -177,6 +177,8 @@ function get_instance_of($name, $method='', $args=array()) {
 
 ###IOS写法
  
+单例怎么解决线程的 不安全呢?
+ @synchronized 来创建互斥锁即可
 ```
 
 /*********
