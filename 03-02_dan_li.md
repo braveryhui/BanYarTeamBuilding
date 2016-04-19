@@ -218,7 +218,7 @@ function get_instance_of($name, $method='', $args=array()) {
 {
     return self;
 }
-//不被序列化归档
+//不被序列化序列化归档
 - (id)initWithCoder:(NSCoder*)decoder    
   {    
     
