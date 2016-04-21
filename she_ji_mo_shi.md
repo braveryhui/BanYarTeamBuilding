@@ -36,3 +36,5 @@ GOF的最后一章 GOF把它称作回到1995（在书后面的同一章）
 [PHP常用设计模式](http://www.admin10000.com/document/7115.html)
 
 [PHP设计模式](https://github.com/domnikl/DesignPatternsPHP)
+
+[IOS设计模式](http://ios.jobbole.com/84685/)
