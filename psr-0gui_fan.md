@@ -22,3 +22,9 @@ SymfonyCoreRequest => /path/to/project/lib/vendor/Symfony/Core/Request.php
 ZendAcl => /path/to/project/lib/vendor/Zend/Acl.php
 ZendMailMessage => /path/to/project/lib/vendor/Zend/Mail/Message.php
 ```
+
+例02
+```
+namespacepackageClass_Name => /path/to/project/lib/vendor/namespace/package/Class/Name.php
+namespacepackage_nameClass_Name => /path/to/project/lib/vendor/namespace/package_name/Class/Name.php
+```
