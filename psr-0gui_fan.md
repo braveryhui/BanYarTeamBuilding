@@ -28,3 +28,22 @@ ZendMailMessage => /path/to/project/lib/vendor/Zend/Mail/Message.php
 namespacepackageClass_Name => /path/to/project/lib/vendor/namespace/package/Class/Name.php
 namespacepackage_nameClass_Name => /path/to/project/lib/vendor/namespace/package_name/Class/Name.php
 ```
+例子03
+```
+<?php 
+
+function autoload($className)
+{
+    $className = ltrim($className, '\');
+    $fileName  = '';
+    $namespace = '';
+    if ($lastNsPos = strrpos($className, '\')) {
+        $namespace = substr($className, 0, $lastNsPos);
+        $className = substr($className, $lastNsPos + 1);
+        $fileName  = str_replace('\', DIRECTORY_SEPARATOR, $namespace) . DIRECTORY_SEPARATOR;
+    }
+    $fileName .= str_replace('_', DIRECTORY_SEPARATOR, $className) . '.php';
+
+    require $fileName;
+}
+```
