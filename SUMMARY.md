@@ -44,6 +44,7 @@
        * [04-01 策略模式](01_ce_lve_mo_shi.md)
 * [代码整洁](dai_ma_zheng_ji.md)
    * [PHP编码规范](phpbian_ma_gui_fan.md)
+       * PSR-0规范
 * [重构](zhong_gou.md)
 * [PHP Snipets](php_snipets.md)
    * [文件回滚备份](wen_jian_hui_gun_bei_fen.md)
