@@ -35,7 +35,7 @@
    * [02 链式操作模式](02_lian_shi_cao_zuo_mo_shi.md)
    * [03 数据对象映射模式](03_shu_ju_dui_xiang_ying_she_mo_shi_ff0d_orm.md)
    * [04 钩子Hook模式](04_gou_zi_hook_mo_shi.md)
-       * 观察者模式
+       * [观察者模式](guan_cha_zhe_mo_shi.md)
    * [对象创建](03_dui_xiang_chuang_jian_gong_chang_dan_li_yuan_xi.md)
        * [工厂&抽象工厂](gong_538226_chou_xiang_gong_chang.md)
        * [单例](03-02_dan_li.md)
