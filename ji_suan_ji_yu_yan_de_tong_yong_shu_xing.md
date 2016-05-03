@@ -16,7 +16,7 @@
       * 动态语言特性 编译原理 执行过程
       * 静态语言特性 编译原理  执行过程
 库函数
-   javaSDK
+   java  SDK
    PHP  SPL
    IOS SDK
 数据结构函数
