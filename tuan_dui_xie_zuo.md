@@ -1,9 +1,8 @@
 # 团队协作
-
-任务协作 WorkTile
+ 注册公司邮箱
+ 任务协作 WorkTile
 
 > [登录地址](https://worktile.com)
-
 文件协作 Pubu.im
      
 >  [瀑布下载地址](https://pubu.im)
