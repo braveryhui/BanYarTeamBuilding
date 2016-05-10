@@ -11,6 +11,7 @@
    * [深入理解操作系统](shen_ru_li_jie_cao_zuo_xi_tong.md)
    * [计算机领域内名言](ji_suan_ji_ling_yu_nei_ji_tang.md)
    * [计算机语言的通用属性](ji_suan_ji_yu_yan_de_tong_yong_shu_xing.md)
+* [利器](li_qi.md)
 * [编译原理](bian_yi_yuan_li.md)
 * [OOP思想](oopsi_xiang.md)
    * [01单一权责原则](dan_yi_quan_ze_yuan_ze.md)
