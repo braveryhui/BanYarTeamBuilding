@@ -50,7 +50,7 @@
    * [开始CodeReview](kai_shi_codereview.md)
        * [为什么codeReview](wei_shi_yao_codereview.md)
 * [重构](zhong_gou.md)
-   * 利器
+   * [利器](li_qi.md)
 * [PHP Snipets](php_snipets.md)
    * [文件回滚备份](wen_jian_hui_gun_bei_fen.md)
 
