@@ -15,7 +15,7 @@
    * [工具类](gong_ju_lei.md)
    * [PHP 轮子](php_lun_zi.md)
    * [教程类](jiao_cheng_lei.md)
-       * [PHP 轮子](php_lun_zi.md)
+   * 规范
 * [编译原理](bian_yi_yuan_li.md)
 * [OOP思想](oopsi_xiang.md)
    * [01单一权责原则](dan_yi_quan_ze_yuan_ze.md)
