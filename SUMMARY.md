@@ -7,7 +7,7 @@
    * [团队工作流程](ren_wu_fen_jie_he_guan_li.md)
    * [团队约束](tuan_dui_yue_shu.md)
    * [团队协作](tuan_dui_xie_zuo.md)
-   * 团队必读书单
+   * [团队必读书单](tuan_dui_bi_du_shu_dan.md)
 * [操作系统](chapter1.md)
    * [深入理解操作系统](shen_ru_li_jie_cao_zuo_xi_tong.md)
    * [计算机领域内名言](ji_suan_ji_ling_yu_nei_ji_tang.md)
