@@ -13,6 +13,7 @@
    * [计算机语言的通用属性](ji_suan_ji_yu_yan_de_tong_yong_shu_xing.md)
 * [利器](li_qi.md)
    * [工具类](gong_ju_lei.md)
+   * [PHP 轮子](php_lun_zi.md)
    * [教程类](jiao_cheng_lei.md)
        * [PHP 轮子](php_lun_zi.md)
 * [编译原理](bian_yi_yuan_li.md)
