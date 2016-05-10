@@ -13,6 +13,7 @@
    * [计算机语言的通用属性](ji_suan_ji_yu_yan_de_tong_yong_shu_xing.md)
 * [利器](li_qi.md)
    * [工具类](gong_ju_lei.md)
+   * 教程类
 * [编译原理](bian_yi_yuan_li.md)
 * [OOP思想](oopsi_xiang.md)
    * [01单一权责原则](dan_yi_quan_ze_yuan_ze.md)
