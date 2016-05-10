@@ -8,6 +8,7 @@
 
 [PSR规范github地址](https://github.com/andrerom/fig-standards/)
 把php方法做成单个文件可以复用   php-trait 
+
 http://overtrue.me/articles/2016/04/about-php-trait.html    
 
 
