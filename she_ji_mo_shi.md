@@ -26,7 +26,6 @@ GOF的最后一章 GOF把它称作回到1995（在书后面的同一章）
 >关于指针针对的不同的应用场景的各种操作
 
 
-
 参考：
 
 [JAVA设计模式](http://blog.csdn.net/chenssy/article/category/1424118)
