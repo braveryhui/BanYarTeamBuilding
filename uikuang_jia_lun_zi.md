@@ -12,5 +12,5 @@
 
 ## SUI Mobile
 地址：http://m.sui.taobao.org/
-简介：轻量，小巧且精美的UI库，方便迅速搭建手机H5应用。
-说明：适用移动端。iPhone风格。
+简介：轻量，小巧且精美的UI库，方便迅速搭建手机H5应用。SUI Mobile 是一套基于 Framework7 开发的UI库。它非常轻量、精美，只需要引入我们的CDN文件就可以使用，并且能兼容到 iOS 6.0+ 和 Android 4.0+，非常适合开发跨平台Web App。SUI Mobile 非常轻量，核心库压缩Gzip后的JS、CSS网络传输体积总共只有52K，却提供了20+个常用的组件。
+说明：适用移动端。组件都是按照iOS风格设计的，所有有很多组件都是iOS独有的炫酷设计。
