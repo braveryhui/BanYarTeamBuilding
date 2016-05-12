@@ -4,6 +4,7 @@
 地址：http://www.bootcss.com/
 简介：简洁、直观、强悍的前端开发框架，让web开发更迅速、简单。
 说明：适用于PC端、移动端。
+依赖：jQuery
 
 ## FrozenUI
 地址：http://frozenui.github.io/
