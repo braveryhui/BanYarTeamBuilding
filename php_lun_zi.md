@@ -16,4 +16,5 @@ overtrue/socialite PHP 通用第三方登录组件，支持：微博、QQ、微�
 overtrue/pinyin 史上最准确的PHP中文转拼音工具
 overtrue/wechat 目前最好用的微信开发工具包
 overtrue/package-builder Composer 包构建工具
+[asonge/php-geohash](https://github.com/asonge/php-geohash) geohash的PHP版本
 
