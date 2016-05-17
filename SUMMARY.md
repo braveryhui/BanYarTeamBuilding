@@ -64,6 +64,7 @@
    * [Git常用命令](gitchang_yong_ming_ling.md)
    * [Docker](docker.md)
        * Docker常用命令
+   * 配置
 * [编译原理](bian_yi_yuan_li.md)
 * [重构](zhong_gou.md)
 * [PHP Snipets](php_snipets.md)
