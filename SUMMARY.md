@@ -65,7 +65,7 @@
    * [Docker](docker.md)
        * Docker常用命令
    * 配置
-       * keepalived配置
+       * [keepalived配置](keepalivedpei_zhi.md)
 * [编译原理](bian_yi_yuan_li.md)
 * [重构](zhong_gou.md)
 * [PHP Snipets](php_snipets.md)
