@@ -19,5 +19,5 @@ chkconfig keepalived on
 mkdir -p /etc/keepalived
 ```
 
-Master: 10.144.130.49
-Slave: 10.45.234.101
+Master: 10.144.130.49 负责服务
+Slave: 10.45.234.101  负责Standby 如果Master挂掉 Slave接管
