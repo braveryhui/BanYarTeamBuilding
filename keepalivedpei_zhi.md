@@ -21,3 +21,5 @@ mkdir -p /etc/keepalived
 
 Master: 10.144.130.49 负责服务
 Slave: 10.45.234.101  负责Standby 如果Master挂掉 Slave接管
+
+＃ 阿里云不支持VIP的配置 该方案搁置
