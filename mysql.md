@@ -38,4 +38,6 @@ cmake -DCMAKE_INSTALL_PREFIX=/usr/local/mysql\
 mysql> UPDATE user SET Password=PASSWORD('passwd') where USER='root'; 
 mysql> FLUSH PRIVILEGES; 
 mysql> quit 
+＃如果提示Can't connect to local MySQL server through socket 
+#./mysql -u root -S /var/mysql/mysqld.sock 指定下socket位置
 ```
