@@ -7,7 +7,7 @@ useradd mysql
 groupadd mysql
 
 wget  http://dev.mysql.com/get/Downloads/MySQL-5.6/mysql-5.6.25.tar.gz
-cmake -DCMAKE_INSTALL_PREFIX=/var/lib/mysql/mysql.sock\
+cmake -DCMAKE_INSTALL_PREFIX=/usr/local/mysql\
 -DMYSQL_DATADIR=/App/banyardata\
 -DMYSQL_UNIX_ADDR=/var/mysql/mysqld.sock\
  -DDEFAULT_CHARSET=utf8\
