@@ -35,7 +35,7 @@ cmake -DCMAKE_INSTALL_PREFIX=/usr/local/mysql\
 设置root密码
 # mysqld_safe --user=mysql --skip-grant-tables --skip-networking & 
 # mysql -u root mysql 
-mysql> UPDATE user SET Password=PASSWORD(‘newpassword’) where USER=’root’; 
+mysql> UPDATE user SET Password=PASSWORD('passwd') where USER='root'; 
 mysql> FLUSH PRIVILEGES; 
 mysql> quit 
 ```
