@@ -3,6 +3,9 @@
 ###安装Mysql
 ```
 编译配置
+useradd mysql
+groupadd mysql
+
 wget  http://dev.mysql.com/get/Downloads/MySQL-5.6/mysql-5.6.25.tar.gz
 cmake -DCMAKE_INSTALL_PREFIX=/var/lib/mysql/mysql.sock\
 -DMYSQL_DATADIR=/App/banyardata\
