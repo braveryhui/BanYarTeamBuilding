@@ -1,33 +1,14 @@
 # 文件回滚备份
 
-1.。adsfasdf
-2.asdfasdfasdf
-
 ```
+<?php 
+$shortopts = "v:";
+$opt = getopt($shortopts);
+if(!isset($opt['v'])) exit("require -v to assign rollback version such as 'v0326' if rollback to master use 'master'");
 
-<?php
-
-define('ROOTPATH',__DIR__);
-include ROOTPATH.'/Imooc/AutoLoader.php';
-
-spl_autoload_register("\\Imooc\\AutoLoader::autoLoaderClass");
-
-Imooc\Object::test();
-echo '<br />';
-APP\Controller\Home\Index::Index();
-echo '<br />';
-Imooc\Factory::createDataBase();
-$db = Imooc\Register::getObj('db');
-$db->where('id=123')->order('order by desc')->limit('limit 10');
-
-
-$prototype = new Imooc\Object();
-$prototype::init();
-echo "------------<br/ >";
-$obj01 = clone $prototype;
-$obj02 = clone $prototype;
-$obj01::test();
-echo '---------<br />';
-$obj02::test();
+$rollbackVersion =  trim($opt['v']);
+chdir("/App/banyar/");
+system("git add .;git commit -m 'checkout v{$rollbackVersion}';git pull;git checkout {$rollbackVersion};");
+shell_exec("rsync -av --exclude-from='/App/exclude.list' /App/banyar/* /App/www.banyar.cn");
 
 ```
