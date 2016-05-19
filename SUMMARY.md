@@ -68,7 +68,7 @@
        * [Keepalived配置](keepalivedpei_zhi.md)
        * [Mysql配置](mysql.md)
        * [PHP配置](phppei_zhi.md)
-       * gitilite安装
+       * [gitilite安装](gitilitean_zhuang.md)
 * [编译原理](bian_yi_yuan_li.md)
 * [重构](zhong_gou.md)
 * [PHP Snipets](php_snipets.md)
