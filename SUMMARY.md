@@ -61,10 +61,10 @@
        * [为什么codeReview](wei_shi_yao_codereview.md)
 * [服务器架构](fu_wu_qi_jia_gou.md)
    * [配置选型](pei_zhi_xuan_xing.md)
-   * [Git常用命令](gitchang_yong_ming_ling.md)
    * [Docker](docker.md)
        * Docker常用命令
    * [配置](pei_zhi.md)
+       * [Git常用命令](gitchang_yong_ming_ling.md)
        * [Keepalived配置](keepalivedpei_zhi.md)
        * [Mysql配置](mysql.md)
        * [PHP配置](phppei_zhi.md)
