@@ -13,10 +13,13 @@ gitLab
 [Go写的gitServer](https://dl.gogs.io)
 
 
-
+###团队沟通
 [Bearychat](https://bearychat.com)
 [HiWork](http://www.hiwork.cc)
 [Pubu](https://pubu.im)
+####项目管理
+[Taiga看板](https://taiga.io)
+
 
 
 
