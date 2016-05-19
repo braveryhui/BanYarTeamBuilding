@@ -64,7 +64,7 @@
    * [Git常用命令](gitchang_yong_ming_ling.md)
    * [Docker](docker.md)
        * Docker常用命令
-   * 配置
+   * [配置](pei_zhi.md)
        * [keepalived配置](keepalivedpei_zhi.md)
        * [Mysql](mysql.md)
 * [编译原理](bian_yi_yuan_li.md)
