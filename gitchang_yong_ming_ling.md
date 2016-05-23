@@ -94,3 +94,8 @@ git checkout origin/version1.2.2 -b local_version1.2.2  ＃拉取服务器上的
  git commit -m "push file braveryhui2.txt"
  git pull
  git push origin HEAD:version1.2.2
+ #新建git仓库
+su git
+mkdir ogbook.git
+cd ogbook.git/
+git init --bare
