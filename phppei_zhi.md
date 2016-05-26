@@ -28,7 +28,6 @@ seaslog.level = 0                               ;记录日志级别 默认0(所�
 seaslog.trace_error = 1                         ;自动记录错误 默认1(开启)
 seaslog.trace_exception = 0                     ;自动记录异常信息 默认0(关闭)
 ;end seaslog configure 2016 0227
-
 ;[opcache]
 zend_extension=opcache.so
 opcache.memory_consumption=64
