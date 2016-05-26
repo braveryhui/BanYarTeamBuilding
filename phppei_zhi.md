@@ -42,7 +42,7 @@ opcache.enable_cli=1
 ###安全配置 
 safe_mode = off   ＃开启的话php 可以执行一下系统函数，建议关闭 （可搜索受此函数影响的php函数）
 如果只需要配置某一个目录可以执行则 设置为on并指定 safe_mode_exec_dir=string 目录来执行系统函数
-disable_function = systme exex phpinfo等等 #进展系统函数和高危函数我
+disable_function = systme exex phpinfo等等 #进展系统函数和高危函数
 register_globas=off                #关闭全局变量 PHP在进程启动时,会根据register_globals的设置，
                                     判断是否将$_GET、$_POST、$_COOKIE、$_ENV、$_SERVER、
                                     $REQUEST等数组变量里的内容自动注册为全局变量
