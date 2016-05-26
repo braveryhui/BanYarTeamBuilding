@@ -2,9 +2,9 @@
 
 PHP
  |  -pdo_mysql
-    -yar
+    -yar       yar-php7 
     －opcache
-    -swoole
+    -swoole   
     －php－Redis
 PHP-FPM
   
