@@ -40,6 +40,7 @@ opcache.fast_shutdown=1
 opcache.enable_cli=1
 ###安全配置 
 safe_mode = off   ＃开启的话php 可以执行一下系统函数，建议关闭 
+如果只需要配置某一个目录可以执行则 设置为on并指定 safe_mode_exec_dir=string 目录来执行系统函数
 safe_mode指令时受影响的函数、变量及配置指令的完整列表：
 apache_request_headers() backticks()和反引号操作符 chdir()
 chgrp()     chmode()    chown()
@@ -54,7 +55,7 @@ pg_lo_import()    popen()     posix_mkfifo()
 putenv()    rename()    zmdir()
 set_time_limit()   shell_exec()    show_source()
 symlink()    system()    touch()
-如果只需要配置某一个目录可以执行则 设置为on并指定 safe_mode_exec_dir=string 目录来执行系统函数
+
 disable_function = systme exex phpinfo #进展系统函数和高危函数我
 register_globas=off                #关闭全局变量 PHP在进程启动时，
                                     会根据register_globals的设置，
