@@ -6,6 +6,7 @@
 #make 
 #make install
 ```
+
 ```
 # cp /home/installSoftWare/php-7.0.3/sapi/fpm/php-fpm.conf /usr/local/php/etc/php-fpm.conf
 ```
@@ -18,7 +19,7 @@ extension=inotify.so
 extension=pdo_mysql.so
 extension=yar.so
 ;[seaslog] congigure 2016 0227
-seaslog.default_basepath = /var/log/seaslog    ;默认log根目录
+seaslog.default_basepath = /var/log/seaslog     ;默认log根目录
 seaslog.default_logger = default                ;默认logger目录
 seaslog.disting_type = 1                        ;是否以type分文件 1是 0否(默认)
 seaslog.disting_by_hour = 1                     ;是否每小时划分一个文件 1是 0否(默认)
@@ -37,3 +38,30 @@ opcache.force_restart_timeout=180
 opcache.revalidate_freq=60
 opcache.fast_shutdown=1
 opcache.enable_cli=1
+###安全配置 
+safe_mode = off   ＃开启的话php 可以执行一下系统函数，建议关闭 
+safe_mode指令时受影响的函数、变量及配置指令的完整列表：
+apache_request_headers() backticks()和反引号操作符 chdir()
+chgrp()     chmode()    chown()
+copy()     dbase_open()    dbmopen()
+dl()     exec()     filepro()
+filepro_retrieve()   filepro_rowcount()   fopen()
+header()    highlight_file()   ifx_*
+ingres_*    link()     mail()
+max_execution_time()   mkdir()     move_uploaded_file()
+mysql_*     parse_ini_file()   passthru()
+pg_lo_import()    popen()     posix_mkfifo()
+putenv()    rename()    zmdir()
+set_time_limit()   shell_exec()    show_source()
+symlink()    system()    touch()
+如果只需要配置某一个目录可以执行则 设置为on并指定 safe_mode_exec_dir=string 目录来执行系统函数
+disable_function = systme exex phpinfo #进展系统函数和高危函数我
+register_globas=off                #关闭全局变量 PHP在进程启动时，
+                                    会根据register_globals的设置，
+                                    判断是否将$_GET、$_POST、$_COOKIE、$_ENV、$_SERVER、
+                                    $REQUEST等数组变量里的内容自动注册为全局变量
+expose_php = off                   #禁止暴露php版本号
+magic_quotes_pc ＝ on               #防止sql注入 本质是把 ‘ 转为／
+display_errors = off                #不显示到前端错误 
+error_reporting =                   #日志显示的级别
+display_startup_errors =Off       ＃ php启动时产生的错误由此选项进行控制allow_url_include =Off                                         ＃PHP通过此选项控制是否允许通过include/require来执行一个远程文件
