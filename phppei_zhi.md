@@ -10,3 +10,31 @@
 # cp /home/installSoftWare/php-7.0.3/sapi/fpm/php-fpm.conf /usr/local/php/etc/php-fpm.conf
 ```
 补充：需要重新安装下pdo_mysql扩展在php-7.0.3/ext目录下 
+###其他扩展配置 
+extension=swoole.so
+extension=redis.so
+extension=seaslog.so
+extension=inotify.so
+extension=pdo_mysql.so
+extension=yar.so
+;[seaslog] congigure 2016 0227
+seaslog.default_basepath = /var/log/seaslog    ;默认log根目录
+seaslog.default_logger = default                ;默认logger目录
+seaslog.disting_type = 1                        ;是否以type分文件 1是 0否(默认)
+seaslog.disting_by_hour = 1                     ;是否每小时划分一个文件 1是 0否(默认)
+seaslog.use_buffer = 1                          ;是否启用buffer 1是 0否(默认)
+seaslog.buffer_size = 100                       ;buffer中缓冲数量 默认0(不使用buffer_size)
+seaslog.level = 0                               ;记录日志级别 默认0(所有日志)
+seaslog.trace_error = 1                         ;自动记录错误 默认1(开启)
+seaslog.trace_exception = 0                     ;自动记录异常信息 默认0(关闭)
+;end seaslog configure 2016 0227
+
+;[opcache]
+zend_extension=opcache.so
+opcache.memory_consumption=64
+opcache.interned_strings_buffer=8
+opcache.max_accelerated_files=4000
+opcache.force_restart_timeout=180
+opcache.revalidate_freq=60
+opcache.fast_shutdown=1
+opcache.enable_cli=1
