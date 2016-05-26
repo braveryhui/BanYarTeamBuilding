@@ -9,3 +9,4 @@
 ```
 # cp /home/installSoftWare/php-7.0.3/sapi/fpm/php-fpm.conf /usr/local/php/etc/php-fpm.conf
 ```
+补充：需要重新安装下pdo_mysql扩展在php-7.0.3/ext目录下 
