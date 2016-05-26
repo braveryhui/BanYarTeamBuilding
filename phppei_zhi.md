@@ -39,6 +39,7 @@ opcache.force_restart_timeout=180
 opcache.revalidate_freq=60
 opcache.fast_shutdown=1
 opcache.enable_cli=1
+
 ###安全配置 
 safe_mode = off   ＃开启的话php 可以执行一下系统函数，建议关闭 （可搜索受此函数影响的php函数）
 如果只需要配置某一个目录可以执行则 设置为on并指定 safe_mode_exec_dir=string 目录来执行系统函数
