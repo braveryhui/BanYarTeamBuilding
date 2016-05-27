@@ -53,3 +53,6 @@ magic_quotes_pc ＝ on               #防止sql注入 本质是把 ‘ 转为／
 display_errors = off                #不显示到前端错误 
 error_reporting =                   #日志显示的级别
 display_startup_errors = Off       ＃ php启动时产生的错误由此选项进行控制allow_url_include =Off                                         ＃PHP通过此选项控制是否允许通过include/require来执行一个远程文件
+
+###php-fpm配置
+
