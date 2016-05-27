@@ -10,6 +10,7 @@
 ```
 # cp /home/installSoftWare/php-7.0.3/sapi/fpm/php-fpm.conf /usr/local/php/etc/php-fpm.conf
 ```
+
 补充：需要重新安装下pdo_mysql扩展在php-7.0.3/ext目录下 
 ###其他扩展配置 
 extension=swoole.so
@@ -51,4 +52,4 @@ expose_php = off                   #禁止暴露php版本号
 magic_quotes_pc ＝ on               #防止sql注入 本质是把 ‘ 转为／
 display_errors = off                #不显示到前端错误 
 error_reporting =                   #日志显示的级别
-display_startup_errors =Off       ＃ php启动时产生的错误由此选项进行控制allow_url_include =Off                                         ＃PHP通过此选项控制是否允许通过include/require来执行一个远程文件
+display_startup_errors = Off       ＃ php启动时产生的错误由此选项进行控制allow_url_include =Off                                         ＃PHP通过此选项控制是否允许通过include/require来执行一个远程文件
