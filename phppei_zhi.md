@@ -11,14 +11,18 @@
 # cp /home/installSoftWare/php-7.0.3/sapi/fpm/php-fpm.conf /usr/local/php/etc/php-fpm.conf
 ```
 补充：需要重新安装下pdo_mysql扩展在php-7.0.3/ext目录下 
-###其他扩展配置 
+
+###其他扩展配置
+``` ini
 extension=swoole.so
 extension=redis.so
 extension=seaslog.so
 extension=inotify.so
 extension=pdo_mysql.so
-extension=yar.so
-;[seaslog] congigure 2016 0227
+extension=yar.so;
+
+[seaslog] 
+# congigure 2016 0227
 seaslog.default_basepath = /var/log/seaslog     ;默认log根目录
 seaslog.default_logger = default                ;默认logger目录
 seaslog.disting_type = 1                        ;是否以type分文件 1是 0否(默认)
@@ -39,16 +43,36 @@ opcache.force_restart_timeout=180
 opcache.revalidate_freq=60
 opcache.fast_shutdown=1
 opcache.enable_cli=1
+```
 
 ###安全配置 
-safe_mode = off   ＃开启的话php 可以执行一下系统函数，建议关闭 （可搜索受此函数影响的php函数）
-如果只需要配置某一个目录可以执行则 设置为on并指定 safe_mode_exec_dir=string 目录来执行系统函数
-disable_function = systme exex phpinfo等等 #进展系统函数和高危函数
-register_globas=off                #关闭全局变量 PHP在进程启动时,会根据register_globals的设置，
-                                    判断是否将$_GET、$_POST、$_COOKIE、$_ENV、$_SERVER、
-                                    $REQUEST等数组变量里的内容自动注册为全局变量
-expose_php = off                   #禁止暴露php版本号
-magic_quotes_pc ＝ on               #防止sql注入 本质是把 ‘ 转为／
-display_errors = off                #不显示到前端错误 
-error_reporting =                   #日志显示的级别
-display_startup_errors =Off       ＃ php启动时产生的错误由此选项进行控制allow_url_include =Off                                         ＃PHP通过此选项控制是否允许通过include/require来执行一个远程文件
+``` ini
+#开启的话php可以执行一下系统函数，建议关闭（可搜索受此函数影响的php函数）
+#如果只需要配置某一个目录可以执行则 设置为on并指定 safe_mode_exec_dir=string目录来执行系统函数。
+#本特性已自 PHP 5.3.0 起废弃并将自 PHP 5.4.0 起移除。
+safe_mode = off  
+
+#进展系统函数和高危函数				
+disable_function = systme exex phpinfo
+
+#关闭全局变量。
+#PHP在进程启动时,会根据register_globals的设置，判断是否将$_GET、$_POST、$_COOKIE、$_ENV、$_SERVER、$REQUEST等数组变量里的内容自动注册为全局变量。
+#本特性已自 PHP 5.3.0 起废弃并将自 PHP 5.4.0 起移除。
+register_globas=off 
+
+#禁止暴露php版本号
+expose_php = off 
+
+#防止sql注入 本质是把 ‘ 转为／
+magic_quotes_pc ＝ on 
+
+#不显示到前端错误               
+display_errors = off
+
+#日志显示的级别
+error_reporting = E_ALL & ~E_NOTICE
+
+#php启动时产生的错误由此选项进行控制allow_url_include =Off
+#PHP通过此选项控制是否允许通过include/require来执行一个远程文件
+display_startup_errors =Off       
+```
