@@ -17,4 +17,11 @@ overtrue/pinyin 史上最准确的PHP中文转拼音工具
 overtrue/wechat 目前最好用的微信开发工具包
 overtrue/package-builder Composer 包构建工具
 [asonge/php-geohash](https://github.com/asonge/php-geohash) geohash的PHP版本
+https://github.com/Seldaek/monolog #日志统计 同类还有seaslog​
+https://github.com/laravel/lumen​      #轻量级的api架构
+https://github.com/chrisboulton/php-resque #php redis实现的消息队列 ​
+
+
+
+
 
