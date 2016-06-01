@@ -71,7 +71,7 @@
        * [gitolite安装](gitilitean_zhuang.md)
        * [linux常用命令](linuxchang_yong_ming_ling.md)
            * [lrzsz上传下载命令](lrzszshang_chuan_xia_zai_ming_ling.md)
-           * rc.local开机启动
+           * [rc.local开机启动](rclocalkai_ji_qi_dong.md)
 * [编译原理](bian_yi_yuan_li.md)
 * [重构](zhong_gou.md)
 * [PHP Snipets](php_snipets.md)
