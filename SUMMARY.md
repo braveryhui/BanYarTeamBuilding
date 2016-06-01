@@ -69,6 +69,7 @@
        * [Mysql配置](mysql.md)
        * [PHP配置](phppei_zhi.md)
        * [gitolite安装](gitilitean_zhuang.md)
+       * [rc.local开机启动](rclocalkai_ji_qi_dong.md)
        * [linux常用命令](linuxchang_yong_ming_ling.md)
            * [lrzsz上传下载命令](lrzszshang_chuan_xia_zai_ming_ling.md)
            * [rc.local开机启动](rclocalkai_ji_qi_dong.md)
