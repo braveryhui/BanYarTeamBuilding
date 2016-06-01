@@ -62,7 +62,7 @@
 * [服务器架构](fu_wu_qi_jia_gou.md)
    * [配置选型](pei_zhi_xuan_xing.md)
    * [Docker](docker.md)
-       * Docker常用命令
+       * [Docker常用命令](dockerchang_yong_ming_ling.md)
    * [配置](pei_zhi.md)
        * [Git常用命令](gitchang_yong_ming_ling.md)
        * [Keepalived配置](keepalivedpei_zhi.md)
@@ -72,7 +72,6 @@
        * [rc.local开机启动](rclocalkai_ji_qi_dong.md)
        * [linux常用命令](linuxchang_yong_ming_ling.md)
            * [lrzsz上传下载命令](lrzszshang_chuan_xia_zai_ming_ling.md)
-           * [rc.local开机启动](rclocalkai_ji_qi_dong.md)
 * [编译原理](bian_yi_yuan_li.md)
 * [重构](zhong_gou.md)
 * [PHP Snipets](php_snipets.md)
