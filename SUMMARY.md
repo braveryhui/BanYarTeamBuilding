@@ -69,7 +69,7 @@
        * [Mysql配置](mysql.md)
        * [PHP配置](phppei_zhi.md)
        * [gitolite安装](gitilitean_zhuang.md)
-       * linux常用命令
+       * [linux常用命令](linuxchang_yong_ming_ling.md)
 * [编译原理](bian_yi_yuan_li.md)
 * [重构](zhong_gou.md)
 * [PHP Snipets](php_snipets.md)
