@@ -91,6 +91,6 @@
   * [PHP Snipets](php_snipets.md)
 
   
-  ## 其它
+## 其它
   * [文件回滚备份](wen_jian_hui_gun_bei_fen.md)
 
