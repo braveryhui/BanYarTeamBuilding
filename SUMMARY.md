@@ -21,7 +21,7 @@
 ## 产品管理
 
 * [产品需求管理流程](chan_pin_xu_qiu_guan_li.md)
-* BUG解决及测试流程
+* [BUG解决及测试流程](bug.md)
 * 产品体验会
 
 ## UI设计
