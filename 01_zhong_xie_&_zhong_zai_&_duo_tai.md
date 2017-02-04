@@ -44,8 +44,7 @@
 。 
 
 举个例子：
-```
-Java代码
+``` java
 
 public class Shape      
 {     

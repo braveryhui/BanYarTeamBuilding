@@ -11,7 +11,7 @@
 
 ###PHP写法
 ####实例01
-```
+``` php
 <?php
 namespace Imooc;
 class Register

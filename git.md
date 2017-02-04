@@ -152,16 +152,16 @@ Receiving objects: 100% (284/284), 676.81 KiB | 12.00 KiB/s, done.
 Resolving deltas: 100% (28/28), done.
 ```
 
-## GitBook Editor编辑文档
-1、安装好GitBook Editor后登陆，可以使用注册好的github账户登陆。
-2、登录github后克隆要编写的文档（如果是加入别人的项目），例如进入https://github.com/braveryhui/BanYarTeamBuilding，点击Fork进行克隆；
-3、进入到克隆后自己的项目，注意地址上用户名已经变成自己的了，示例：https://github.com/52fhy/BanYarTeamBuilding；
-4、点击clone or download，选择Use ssh地址，例如：git@github.com:52fhy/BanYarTeamBuilding.git，复制下来；
-5、本地PC使用：git clone git@github.com:52fhy/BanYarTeamBuilding.git
-6、点击import，选中克隆下来的文档项目，例如`52fhy/BanYarTeamBuilding`；
+## GitBook Editor编辑文档  
+1、安装好GitBook Editor后登陆，可以使用注册好的github账户登陆。    
+2、登录github后克隆要编写的文档（如果是加入别人的项目），例如进入https://github.com/braveryhui/BanYarTeamBuilding，点击Fork进行克隆；  
+3、进入到克隆后自己的项目，注意地址上用户名已经变成自己的了，示例：https://github.com/52fhy/BanYarTeamBuilding；  
+4、点击clone or download，选择Use ssh地址，例如：git@github.com:52fhy/BanYarTeamBuilding.git，复制下来；  
+5、本地PC使用：git clone git@github.com:52fhy/BanYarTeamBuilding.git  
+6、点击import，选中克隆下来的文档项目，例如`52fhy/BanYarTeamBuilding`；  
 7、导入成功即可编辑了。第一次需要设置关联的远程仓库地址：Book->repositories Setting:
-https://github.com/52fhy/BanYarTeamBuilding.git
-8、有新的变动只需要点击Save，然后Publish即可。
+https://github.com/52fhy/BanYarTeamBuilding.git  
+8、有新的变动只需要点击Save，然后Publish即可。  
 
 ## github如何提交变更
 当你的文档写到一定程度需要和原始文档合并，例如我这里克隆的braveryhui/BanYarTeamBuilding，只需要在网页你的项目52fhy/BanYarTeamBuilding点击Pull requests，写明原因，提交，等待对方同意合并即可。当然，对方可能拒绝合并哦。

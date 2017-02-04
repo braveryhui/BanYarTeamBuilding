@@ -32,7 +32,7 @@
 
 
 ###PHP实现
-```
+``` php
 <?php
 interface IDataBase
 {
@@ -171,7 +171,7 @@ $db->where('do where')->order('order desc')->querySql();
 
 
 ###写法
-    1
+
 
 #接口 & 抽象类 & 实体类的关系
 
