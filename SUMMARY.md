@@ -59,7 +59,7 @@
   * [电子书](dian_zi_shu.md)
 * [博客类](.md)
   * [开源团队主页](kai_yuan_tuan_dui_zhu_ye.md)
-  * [优秀博客收藏](blog_site.md)
+  * [博客收藏](blog_site.md)
 
 ## OOP思想
 
