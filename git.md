@@ -168,7 +168,7 @@ https://github.com/52fhy/BanYarTeamBuilding.git
 
 ## github如何同步原仓库
 
-第一次需要绑定原项目：
+第一次需要绑定下原项目：
 ```
 git remote add pm git@github.com:braveryhui/BanYarTeamBuilding.git
 ```
