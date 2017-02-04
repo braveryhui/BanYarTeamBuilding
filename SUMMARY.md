@@ -60,16 +60,12 @@
 * [数据对象映射模式](03_shu_ju_dui_xiang_ying_she_mo_shi_ff0d_orm.md)
 * [观察者模式](guan_cha_zhe_mo_shi.md)
 * [钩子Hook模式](04_gou_zi_hook_mo_shi.md)
-
-## 对象创建
-
 * [工厂&抽象工厂](gong_538226_chou_xiang_gong_chang.md)
 * [单例](03-02_dan_li.md)
 * [原型](yuan_xing.md)
 * [生成器](sheng_cheng_qi.md)
-* [策略模式](01_ce_lve_mo_shi.md)
-
-## 算法封装
+* 算法封装
+  * [策略模式](01_ce_lve_mo_shi.md)
 
 ## 代码整洁
 
