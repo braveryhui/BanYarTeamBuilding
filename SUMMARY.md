@@ -31,11 +31,14 @@
   * [服务器端轮子](fu_wu_qi_duan_lun_zi.md)
   * [PHP 轮子](php_lun_zi.md)
   * [UI框架 轮子](uikuang_jia_lun_zi.md)
-  * [开源团队主页](kai_yuan_tuan_dui_zhu_ye.md)
+
 
 * 书籍
   * [教程类](jiao_cheng_lei.md)
   * [电子书](dian_zi_shu.md)
+  
+* 博客类
+  * [开源团队主页](kai_yuan_tuan_dui_zhu_ye.md)
 
 
 
