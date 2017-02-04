@@ -20,16 +20,24 @@
   * [计算机语言的通用属性](ji_suan_ji_yu_yan_de_tong_yong_shu_xing.md)
 
 ## 利器
+* 开发规范
+  * [开发规范](kai_fa_gui_fan.md)
+  * [PHP编码规范](phpbian_ma_gui_fan.md)
+  * [PSR-0规范](psr-0gui_fan.md)
+  
+* 工具
+  * [Git](git.md)
+  * [工具类](gong_ju_lei.md)
+  * [服务器端轮子](fu_wu_qi_duan_lun_zi.md)
+  * [PHP 轮子](php_lun_zi.md)
+  * [UI框架 轮子](uikuang_jia_lun_zi.md)
+  * [开源团队主页](kai_yuan_tuan_dui_zhu_ye.md)
 
-* [Git](git.md)
-* [开发规范](kai_fa_gui_fan.md)
-* [工具类](gong_ju_lei.md)
-* [教程类](jiao_cheng_lei.md)
-* [电子书](dian_zi_shu.md)
-* [服务器端轮子](fu_wu_qi_duan_lun_zi.md)
-* [PHP 轮子](php_lun_zi.md)
-* [UI框架 轮子](uikuang_jia_lun_zi.md)
-* [开源团队主页](kai_yuan_tuan_dui_zhu_ye.md)
+* 书籍
+  * [教程类](jiao_cheng_lei.md)
+  * [电子书](dian_zi_shu.md)
+
+
 
 ## OOP思想
 
@@ -69,10 +77,7 @@
 * 算法封装
   * [策略模式](01_ce_lve_mo_shi.md)
 
-## 代码整洁
-
-* [PHP编码规范](phpbian_ma_gui_fan.md)
-* [PSR-0规范](psr-0gui_fan.md)
+## 重构&代码整洁
 * [开始CodeReview](kai_shi_codereview.md)
 * [为什么codeReview](wei_shi_yao_codereview.md)
 
