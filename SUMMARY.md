@@ -101,8 +101,10 @@
   
 * 性能与对象访问
  * 享元
+ * 代理
 
 * 对象状态
+  * 备忘录
 
 ## 重构&代码整洁
 * [开始CodeReview](kai_shi_codereview.md)
