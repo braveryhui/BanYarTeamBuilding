@@ -15,7 +15,6 @@
 
 ## 操作系统
 * 操作系统
-
   * [深入理解操作系统](shen_ru_li_jie_cao_zuo_xi_tong.md)
   * [计算机领域内名言](ji_suan_ji_ling_yu_nei_ji_tang.md)
   * [计算机语言的通用属性](ji_suan_ji_yu_yan_de_tong_yong_shu_xing.md)
