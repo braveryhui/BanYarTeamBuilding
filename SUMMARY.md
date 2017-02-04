@@ -32,7 +32,6 @@
   * [PHP 轮子](php_lun_zi.md)
   * [UI框架 轮子](uikuang_jia_lun_zi.md)
 
-
 * 书籍
   * [教程类](jiao_cheng_lei.md)
   * [电子书](dian_zi_shu.md)
@@ -61,8 +60,6 @@
 
 * 什么是架构
 * 架构模式
-
-
   * [MVC](mvc.md)
   * [MVP](mvp.md)
   * [MVVM](mvvm.md)
