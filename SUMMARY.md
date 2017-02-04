@@ -4,14 +4,13 @@
 
 * [Introduction](README.md)
 * [团队成员招聘](tuan_dui_cheng_yuan_zhao_pin.md)
-  * 1111
-  * [团队组建过程中的问题](tuan_dui_zu_jian_guo_cheng_zhong_de_wen_ti.md)
-  * [团队新成员入职流程](tuan_dui_xin_cheng_yuan_ru_zhi_liu_cheng.md)
-  * [团队工作流程](ren_wu_fen_jie_he_guan_li.md)
-  * [团队约束](tuan_dui_yue_shu.md)
-  * [团队协作](tuan_dui_xie_zuo.md)
-  * [团队必读书单](tuan_dui_bi_du_shu_dan.md)
-  * [团队开会原则](tuan_dui_kai_yuan_yuan_ze.md)
+* [团队组建过程中的问题](tuan_dui_zu_jian_guo_cheng_zhong_de_wen_ti.md)
+* [团队新成员入职流程](tuan_dui_xin_cheng_yuan_ru_zhi_liu_cheng.md)
+* [团队工作流程](ren_wu_fen_jie_he_guan_li.md)
+* [团队约束](tuan_dui_yue_shu.md)
+* [团队协作](tuan_dui_xie_zuo.md)
+* [团队必读书单](tuan_dui_bi_du_shu_dan.md)
+* [团队开会原则](tuan_dui_kai_yuan_yuan_ze.md)
 
 ## 操作系统
 
