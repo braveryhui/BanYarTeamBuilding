@@ -78,4 +78,5 @@
   * [重构](zhong_gou.md)
   * [PHP Snipets](php_snipets.md)
 * [文件回滚备份](wen_jian_hui_gun_bei_fen.md)
+* [日报格式](styles/日报格式/README.md)
 
