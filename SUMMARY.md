@@ -2,7 +2,7 @@
 
 ## 团队
 
-* [Introduction](README.md)
+* [简介](README.md)
 * [团队成员招聘](tuan_dui_cheng_yuan_zhao_pin.md)
 * [团队组建过程中的问题](tuan_dui_zu_jian_guo_cheng_zhong_de_wen_ti.md)
 * [团队新成员入职流程](tuan_dui_xin_cheng_yuan_ru_zhi_liu_cheng.md)
