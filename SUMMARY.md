@@ -12,6 +12,18 @@
   * [团队协作](tuan_dui_xie_zuo.md)
   * [团队必读书单](tuan_dui_bi_du_shu_dan.md)
   * [团队开会原则](tuan_dui_kai_yuan_yuan_ze.md)
+  
+* 工作流程
+  * [日报格式](styles/日报格式/README.md)
+
+* 产品管理
+
+## UI设计 
+* VI体系
+* 视觉规范
+  * 文档
+  * APP
+  * WEB
 
 ## 操作系统
 * 操作系统
@@ -110,16 +122,14 @@
   * 备忘录
 
 ## 重构&代码整洁
+* 重构 
+* 代码整洁
 * [开始CodeReview](kai_shi_codereview.md)
 * [为什么codeReview](wei_shi_yao_codereview.md)
 
-## 服务器架构
+## 服务器
 
-* [配置选型](pei_zhi_xuan_xing.md)
-* [Docker](docker.md)
-* [Docker常用命令](dockerchang_yong_ming_ling.md)
-
-## 配置
+* 基本配置
   * [Git常用命令](gitchang_yong_ming_ling.md)
   * [Keepalived配置](keepalivedpei_zhi.md)
   * [Mysql配置](mysql.md)
@@ -129,8 +139,14 @@
   * [linux常用命令](linuxchang_yong_ming_ling.md)
   * [lrzsz上传下载命令](lrzszshang_chuan_xia_zai_ming_ling.md)
 
-## 其它
+* 工具
+  * [Docker](docker.md)
+  * [Docker常用命令](dockerchang_yong_ming_ling.md)
+  * [文件回滚备份](wen_jian_hui_gun_bei_fen.md)
 
-* [文件回滚备份](wen_jian_hui_gun_bei_fen.md)
-  * [日报格式](styles/日报格式/README.md)
+* 优化
+  * [配置选型](pei_zhi_xuan_xing.md)
+
+* 服务端架构
+
 
