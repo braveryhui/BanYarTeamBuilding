@@ -1,9 +1,6 @@
 # Summary
 
 * [团队](README.md)
-
----
-
 * [团队成员招聘](tuan_dui_cheng_yuan_zhao_pin.md)
 * [团队组建过程中的问题](tuan_dui_zu_jian_guo_cheng_zhong_de_wen_ti.md)
 * [团队新成员入职流程](tuan_dui_xin_cheng_yuan_ru_zhi_liu_cheng.md)
@@ -20,9 +17,6 @@
   * [计算机领域内名言](ji_suan_ji_ling_yu_nei_ji_tang.md)
   * [计算机语言的通用属性](ji_suan_ji_yu_yan_de_tong_yong_shu_xing.md)
 * [利器](li_qi.md)
-
----
-
 * [Git](git.md)
 * [开发规范](kai_fa_gui_fan.md)
 * [工具类](gong_ju_lei.md)
