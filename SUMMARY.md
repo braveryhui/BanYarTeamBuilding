@@ -12,6 +12,7 @@
   * [团队协作](tuan_dui_xie_zuo.md)
   * [团队必读书单](tuan_dui_bi_du_shu_dan.md)
   * [团队开会原则](tuan_dui_kai_yuan_yuan_ze.md)
+  * [团队沟通](tuan_dui_gou_tong.md)
   
 * 工作流程
   * [日报格式](styles/日报格式/README.md)
