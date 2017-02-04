@@ -59,14 +59,16 @@
 
 ## 架构模式
 
-* [MVC](mvc.md)
-* [MVP](mvp.md)
-* [MVVM](mvvm.md)
-* [VIPER](viper.md)
-* [SOA](soa.md)
-* [AOP](aop.md)
-* VOP
-* [POP](pop.md)
+* 什么是架构
+* 架构
+  * [MVC](mvc.md)
+  * [MVP](mvp.md)
+  * [MVVM](mvvm.md)
+  * [VIPER](viper.md)
+  * [SOA](soa.md)
+  * [AOP](aop.md)
+  * VOP
+  * [POP](pop.md)
 
 ## 设计模式
 * 为什么有设计模式
