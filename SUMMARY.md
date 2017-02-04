@@ -66,6 +66,7 @@
 * [POP](pop.md)
 
 ## 设计模式
+* 为什么有设计模式
 * 对象创建
   * [注册树模式](01_zhu_ce_shu_mo_shi.md)
   * [链式操作模式](02_lian_shi_cao_zuo_mo_shi.md)
@@ -76,9 +77,15 @@
   * [单例](03-02_dan_li.md)
   * [原型](yuan_xing.md)
   * [生成器](sheng_cheng_qi.md)
-  
+
+* 接口适配
+* 对象解耦
+* 抽象集合
+* 行为扩展
 * 算法封装
   * [策略模式](01_ce_lve_mo_shi.md)
+* 性能与对象访问
+* 对象状态
 
 ## 重构&代码整洁
 * [开始CodeReview](kai_shi_codereview.md)
@@ -91,19 +98,6 @@
 * [Docker常用命令](dockerchang_yong_ming_ling.md)
 
 ## 配置
-
-* [算法封装](suan_fa_feng_zhuang.md)
-  * [04-01 策略模式](01_ce_lve_mo_shi.md)
-  * [代码整洁](dai_ma_zheng_ji.md)
-* [PHP编码规范](phpbian_ma_gui_fan.md)
-  * [PSR-0规范](psr-0gui_fan.md)
-* [开始CodeReview](kai_shi_codereview.md)
-  * [为什么codeReview](wei_shi_yao_codereview.md)
-  * [服务器架构](fu_wu_qi_jia_gou.md)
-* [配置选型](pei_zhi_xuan_xing.md)
-* [Docker](docker.md)
-  * [Docker常用命令](dockerchang_yong_ming_ling.md)
-* [配置](pei_zhi.md)
   * [Git常用命令](gitchang_yong_ming_ling.md)
   * [Keepalived配置](keepalivedpei_zhi.md)
   * [Mysql配置](mysql.md)
@@ -116,10 +110,5 @@
 ## 其它
 
 * [文件回滚备份](wen_jian_hui_gun_bei_fen.md)
-  * [lrzsz上传下载命令](lrzszshang_chuan_xia_zai_ming_ling.md)
-* [编译原理](bian_yi_yuan_li.md)
-* [重构](zhong_gou.md)
-* [PHP Snipets](php_snipets.md)
-  * [文件回滚备份](wen_jian_hui_gun_bei_fen.md)
   * [日报格式](styles/日报格式/README.md)
 
