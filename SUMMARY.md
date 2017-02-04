@@ -16,11 +16,11 @@
   * 团队会议记录
 * 工作流程
   * [日报格式](styles/日报格式/README.md)
-  * [每日产品体验流程](styles/日报格式/.md)
+  * [每日产品体验流程](chan_pin_ti_yan_liu_cheng.md)
 
 ## 产品管理
 
-* 产品需求管理流程
+* [产品需求管理流程](chan_pin_xu_qiu_guan_li.md)
 * BUG解决及测试流程
 * 产品体验会
 
