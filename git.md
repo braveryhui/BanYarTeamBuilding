@@ -50,6 +50,7 @@ $ git config --global user.email "email@example.com"
 ```
 >因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。你也许会担心，如果有人故意冒充别人怎么办？这个不必担心，首先我们相信大家都是善良无知的群众，其次，真的有冒充的也是有办法可查的。
 注意`git config`命令的`--global`参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。
+
 下次重新使用这两个命令可以更新用户名和邮箱。
 通过 `git config -l`  可以查看已有的配置。
 4)创建SSH Key
@@ -92,6 +93,7 @@ Enter same passphrase again:
 >为什么GitHub需要SSH Key呢？因为GitHub需要识别出你推送的提交确实是你推送的，而不是别人冒充的，而Git支持SSH协议，所以，GitHub只要知道了你的公钥，就可以确认只有你自己才能推送。
 >
 当然，GitHub允许你添加多个Key。假定你有若干电脑，你一会儿在公司提交，一会儿在家里提交，只要把每台电脑的Key都添加到GitHub，就可以在每台电脑上往GitHub推送了。
+
 6)创建本地版本库(我选的D盘)
 ```
 $ cd /d/phpsetup/www/git/
@@ -106,19 +108,23 @@ $ git init
 Initialized empty Git repository in /Users/52fhy/fhyblog/.git/
 ```
 瞬间Git就把仓库建好了，而且告诉你是一个空的仓库（empty Git repository），细心的读者可以发现当前目录下多了一个 `.git` 的目录，这个目录是Git来跟踪管理版本库的，没事千万不要手动修改这个目录里面的文件，不然改乱了，就把Git仓库给破坏了。
+
 >注意几个概念：
 工作区就是创建仓库的文件夹如（fhyblog文件夹就是一个工作区）
 版本库就是工作区的隐藏目录.git
 版本库中有暂存区（stage/index）和分支（master）
 git add 实际是把文件添加到暂存区
 git commit 把暂存区的内容提交到当前分支
+
 8)在本地版本库fhyblog里放入一些代码或文件
 我放了src目录和一个readme.txt文件
 `git status`  可以查看工作区有改动。
+
 9)进入版本库目录：
 ```
 $ cd /d/phpsetup/www/git/fhyblog/
 ```
+
 10)更新本地版本库(.指当前所有目录及文件)
 ```
 $ git add .
@@ -132,6 +138,7 @@ $ git add readme.txt
 $ git add src/
 ```
 此时还没有真正提交到版本库,只是从工作区放到暂存区。提交请继续往下看：
+
 11)执行更新操作：
 ```
 $ git commit -m "相关说明"
@@ -143,6 +150,7 @@ create mode 100644 "\345\215\207\347\272\247\346\227\245\345\277\227.txt"
 一般情况，如果是个人开发，主要就是 `git add` 命令和 `git commit` 命令：提交更改至暂存区，然后提交到分支。
 如果是团队协作，需要统一在远程版本库交换更改，就要用到 `git pull` 和 `git push` 命令了。
 注意：git本身并不依赖远程版本库，这点和svn不一样。远程版本库的作用是方便交换更改，如github。
+
 12)更新至远程(Github):
 查看远程库：
 ```
@@ -180,17 +188,21 @@ efe4969..91115af master -> master
 Branch master set up to track remote branch master from origin.
 Admin@YJC-PC /d/phpsetup/www/git/fhyblog (master)
 ```
+
 如果完成到这里,恭喜你!你已经有了本地和远程版本库了。
 注意：
 `origin` 是默认的远程版本库（主机）名称（可以在 `.git/config` 之中进行修改）
 `git push origin master` 的意思是 `git push origin master:master` （将本地的 `master` 分支推送至远端的 `master` 分支，如果没有就新建一个）
 `git push origin master`和`git push`有什么区别？
+
 >不带任何参数的git push，默认只推送当前分支，这叫做simple方式。此外，还有一种matching方式，会推送所有有对应的远程分支的本地分支。Git 2.0版本之前，默认采用matching方法，现在改为默认采用simple方式。如果要修改这个设置，可以采用git config命令。
+
 `master`其实是一个`refspec`，正常的`refspec`的形式为`+<src>:<dst>`，冒号前表示`local branch`的名字，冒号后表示`remote repository`下 `branch`的名字。注意，如果你省略了`<dst>`，git就认为你想push到remote repository下和local branch相同名字的branch。
 删除远程库：
 ```
 $ git rm git@github.com:yourname/yourgit.git
 ```
+
 ## 再次使用git
 以后本地版本库里有更新,使用 git add  添加,使用命令 git commit 提交。
 更新至远程使用命令 git push origin master 推送
@@ -202,6 +214,7 @@ git push
 ```
 先git pull再git push防止覆盖他人代码造成冲突。
 可以使用`git status`命令查看git仓库状况。
+
 ## 从远程更新至本地版本库
 要克隆一个仓库，首先必须知道仓库的地址，然后使用git clone命令克隆。
 ```
@@ -220,17 +233,4 @@ Resolving deltas: 100% (28/28), done.
 >1、Git教程,极力推荐，尤其是新手。本文就参考了该教程。<br/>
 2、《Pro Git》一书,百度搜索吧;<br/>
 3、Git官方教程
-参考文档：
->1、Git 使用及原理 总结 - 人间奇迹 - 博客园
 
-http://www.cnblogs.com/yaozhongxiao/p/3794963.html
-
-<br/>
-2、learngit/git学习笔记.md at master · michaelliao/learngit · GitHub
-
-https://github.com/michaelliao/learngit/blob/master/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md
-
-<br/>
-3、Git远程操作详解 - 阮一峰的网络日志
-
-http://www.ruanyifeng.com/blog/2014/06/git\_remote.html
