@@ -88,7 +88,6 @@
   * [钩子Hook模式](04_gou_zi_hook_mo_shi.md)
   * [数据对象映射模式](03_shu_ju_dui_xiang_ying_she_mo_shi_ff0d_orm.md)
 
-
 * 抽象集合
   * 组合
   * 迭代器
