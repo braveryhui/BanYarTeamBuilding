@@ -1,9 +1,11 @@
 # DevOps
 
 ## 什么是DevOps
-DevOps是`Development`和`Operations`的组合。
+DevOps是`Development`和`Operations`的组合。DevOps是一种开发、测试、运营、维护部门之间沟通、协作与整合的软件过程、方法与系统。
 
-Devops指的是原来纯粹进行开发的人，和那些负责运维和质量管理保证任务的角色之间的紧密协作和相互交流。开发者必须同时承担质量检测和发行评估的任务。
+DevOps是一种高度强调人与人间互动的工作方式，不能先入为主地认为参与者了解某方面技能，在完成高频率部署的同时，提高生产环境的可靠稳定和安全行。
+
+DevOps能够为团队提供一种极具凝聚力的文化氛围，DevOps不光是一个方法理念，而且是一个有力的技术手段，人员、文化、流程与工具这几大要素在DevOps中同样重要。
 
 ## 为什么用DevOps
 
@@ -25,41 +27,69 @@ DevOps最吸引人的地方就是致力于把不同部门不同分工的人召�
 
 ### 常见工具
 
-（1）数据库，例如：Oracle、MySQL、Cassandra等；
-（2）持续集成，例如：Jenkins、TeamCity等；
-（3）部署，例如：SSH、XLDeploy等；
-（4）云/IaaS、PaaS，例如：Amazon Web Services、Azure等；
-（5）业务分析/监控，例如：Splunk、Nagios等；
-（6）配置管理，例如：Git、SVN等；
-（7）库管理，例如：Nexus、NuGet等；
-（8）配置/服务开通，例如：Chef、Puppet、Ansible、Vagrant等；
-（9）发布管理，例如：XL Release、UrbanCode Release等；
-（10）日志，例如：Sumo Logic、Logstash等；
-（11）构建，例如：Gradle、Ant、Maven等； （12）测试，例如：Junit、Cucumber、Selenium、Jmeter、Appium等；
-（13）容器化，例如：Docker、Kubernetes、Mesos等；
-（14）协作，例如：Jira、Flowdock等；
-（15）安全，例如：Snort、CyberArk等。   运维（性能监控），下接QA（性能管理）与开发（性能分析
+- 代码管理（SCM）：GitHub、GitLab、BitBucket、SubVersion
+- 构建工具：Ant、Gradle、maven
+- 自动部署：Capistrano、CodeDeploy
+- 持续集成（CI）：Bamboo、Hudson、Jenkins
+- 配置管理：Ansible、Chef、Puppet、SaltStack、Rock GuardRail
+- 云/IaaS、PaaS：Amazon Web Services、Azure等
+- 容器：Docker、LXC、第三方厂商如AWS
+- 编排：Kubernetes、Core、Apache Mesos、DC/OS
+- 服务注册与发现：Zookeeper、etcd、Consul
+- 脚本语言：python、ruby、shell
+- 日志管理：ELK、Logentries
+- 系统监控：Datadog、Graphite、Icinga、Nagios
+- 性能监控：AppDynamics、New Relic、Splunk
+- 压力测试：JMeter、Blaze Meter、loader.io
+- 自动化测试: 包括客户端与服务器端的自动化测试框架，例如Appium，Selenium 以及各种Mock技术和xUnit
+- 预警：PagerDuty、pingdom、厂商自带如AWS SNS
+- 安全：Snort、CyberArk等
+- 消息总线：ActiveMQ、SQS
+- 应用服务器：Tomcat、JBoss
+- Web服务器：Apache、Nginx、IIS
+- 数据库：MySQL、Oracle、PostgreSQL等关系型数据库；cassandra、mongoDB、redis等NoSQL数据库
+- 项目管理（PM）、协作：Jira、Asana、Taiga、Trello、Basecamp、Pivotal Tracker、Worktile
+- 质量、Bug反馈： Jira 是个不错的选择，其他的开源工具例如禅道，bugzila，mantis等等
+- 文档管理：各种开发、运维、部署文档的统一管理
 
 
 ### 我们在用的
 
-（1）数据库：MySQL；
-（2）部署：Git；
-（3）业务分析/监控：暂无；
-（4）配置管理：Git；
-（5）配置/服务开通：暂无；
-（6）发布管理：Git；
-（7）日志：暂无；
-（8）测试：单元测试，压力测试；
-（9）容器化，例如：Docker、Kubernetes、Mesos等；
-（10）协作：Worktile、瀑布IM；
-（11）安全：暂无。
+- 代码管理：Git
+- 部署：Git
+- 持续集成（CI）：Git
+- 配置管理：Git
+- 云/IaaS、PaaS：阿里云
+- 容器：Docker，暂未投入生产环境
+- 编排：暂无
+- 服务注册与发现：暂无
+- 脚本语言：python，但暂无应用；shell
+- 日志管理：后台日志管理
+- 系统监控：阿里
+- 性能监控：阿里云
+- 压力测试：手动、脚本
+- 自动化测试: 暂无
+- 预警：阿里云
+- 安全：暂无
+- 消息总线：暂无
+- Web服务器：Nginx、Swoole
+- 数据库：MySQL
+- 项目管理（PM）、协作：Worktile
+- 质量、Bug反馈： Worktile
+- 文档管理：Git、Worktile
+
 
 我们尚未完善的：
-（1）测试：包括单元测试、自动化测试、压力测试
-（2）容器化：尚未正式应用
+
+- 自动化测试：包括单元测试、自动化测试
+- 压力测试
+- 容器化：暂未投入生产环境
+- 文档管理：未完善
 
 我们所缺失的或者属于盲点的：
-（1）监控
-（2）安全
+
+- 自动化部署
+- 系统监控：目前依赖阿里云
+- 性能监控：目前依赖阿里云
+- 安全
 
