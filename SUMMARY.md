@@ -141,6 +141,7 @@
   * [rc.local开机启动](rclocalkai_ji_qi_dong.md)
   * [linux常用命令](linuxchang_yong_ming_ling.md)
   * [lrzsz上传下载命令](lrzszshang_chuan_xia_zai_ming_ling.md)
+  * [Monitor配置](monitor.md)
 * 工具
   * [Docker](docker.md)
   * [Docker常用命令](dockerchang_yong_ming_ling.md)
