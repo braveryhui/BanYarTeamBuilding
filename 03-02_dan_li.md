@@ -36,7 +36,7 @@
 
 ###PHP写法
 
-```
+``` php
 <?php
 namespace Banyar;
 class Singleton
@@ -82,7 +82,7 @@ class Singleton
 ####多数实际的应用场景会是抽象工厂和单例的结合使用，TP是用的创建单例的公共方法，
 
 
-```
+``` php
 <?php
  
 abstract class FactoryAbstract {
@@ -144,7 +144,7 @@ print_r(SecondProduct::getInstance()->a);
 
 #####Thinkphp common文件的functions.php中获取单例的方法
 
-```
+``` php
 /**
  * 取得对象实例 支持调用类的静态方法
  * @param string $name 类名
@@ -179,7 +179,7 @@ function get_instance_of($name, $method='', $args=array()) {
  
 单例怎么解决线程的 不安全呢?
  @synchronized 来创建互斥锁即可
-```
+``` c
 
 /*********
  1.常规写法
@@ -238,7 +238,7 @@ function get_instance_of($name, $method='', $args=array()) {
 }
 @end
 ```
-```
+``` c
 /*********
  宏作用:单例生成宏
  使用方法:http://blog.csdn.net/totogo2010/article/details/8373642
@@ -259,7 +259,7 @@ return shared##className; \
 }
 ```
 .h
-```
+``` c
 #import "testSingleton.h"  
   
 @implementation testSingleton  
@@ -267,7 +267,7 @@ DEFINE_SINGLETON_FOR_CLASS(testSingleton)
 @end   
 ```
 .m
-```
+``` c
 #import <Foundation/Foundation.h>  
 @interface testSingleton : NSObject  
 DEFINE_SINGLETON_FOR_HEADER(testSingleton);  
