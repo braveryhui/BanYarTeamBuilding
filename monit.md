@@ -71,7 +71,7 @@ set mail-format {
 
   Date:         $DATE
   Action:         $ACTION
-  Host:         banyar.com
+  Host:         $HOST
   Description: $DESCRIPTION
 
 Your faithful employee,
