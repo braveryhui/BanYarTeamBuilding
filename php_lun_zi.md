@@ -20,7 +20,7 @@ overtrue/package-builder Composer 包构建工具
 https://github.com/Seldaek/monolog #日志统计 同类还有seaslog​
 https://github.com/laravel/lumen​      #轻量级的api架构
 https://github.com/chrisboulton/php-resque #php redis实现的消息队列 ​
-
+https://github.com/tmtbe/SwooleDistributed #swoole 分布式全栈框架
 
 
 

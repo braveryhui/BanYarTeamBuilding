@@ -64,7 +64,7 @@
 ## OOP思想
 
 * [为什么使用OOP](oop/oop.md)
-* 几大原则
+* [几大原则](oop/.md)
   * [01单一权责原则](dan_yi_quan_ze_yuan_ze.md)
   * [02开放闭合原则](kai_fang_bi_he_yuan_ze.md)
   * [03里氏代换原则](03li_shi_dai_huan_yuan_ze.md)
@@ -125,8 +125,8 @@
 
 ## 重构&代码整洁
 
-* 重构 
-* 代码整洁
+* [重构 ](.md)
+* [代码整洁](.md)
 * [开始CodeReview](kai_shi_codereview.md)
 * [为什么codeReview](wei_shi_yao_codereview.md)
 
