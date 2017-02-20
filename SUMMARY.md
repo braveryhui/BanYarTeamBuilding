@@ -48,6 +48,7 @@
   * [开发规范](kai_fa_gui_fan.md)
   * [PHP编码规范](phpbian_ma_gui_fan.md)
   * [PSR-0规范](psr-0gui_fan.md)
+  * [API编写规范](api.md)
 * 工具
   * [Git](git.md)
   * [工具类](gong_ju_lei.md)
