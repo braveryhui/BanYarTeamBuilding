@@ -50,11 +50,14 @@
   * [PSR-0规范](psr-0gui_fan.md)
   * [API编写规范](api.md)
 * 工具
+* [工具](.md)
+>>>>>>> pm/master
   * [Git](git.md)
   * [工具类](gong_ju_lei.md)
   * [服务器端轮子](fu_wu_qi_duan_lun_zi.md)
   * [PHP 轮子](php_lun_zi.md)
   * [UI框架 轮子](uikuang_jia_lun_zi.md)
+  * [DevOps](devops.md)
 * 书籍
   * [教程类](jiao_cheng_lei.md)
   * [电子书](dian_zi_shu.md)
