@@ -48,7 +48,10 @@
   * [开发规范](kai_fa_gui_fan.md)
   * [PHP编码规范](phpbian_ma_gui_fan.md)
   * [PSR-0规范](psr-0gui_fan.md)
+  * [API编写规范](api.md)
+* 工具
 * [工具](.md)
+>>>>>>> pm/master
   * [Git](git.md)
   * [工具类](gong_ju_lei.md)
   * [服务器端轮子](fu_wu_qi_duan_lun_zi.md)
@@ -65,7 +68,7 @@
 ## OOP思想
 
 * [为什么使用OOP](oop/oop.md)
-* 几大原则
+* [几大原则](oop/.md)
   * [01单一权责原则](dan_yi_quan_ze_yuan_ze.md)
   * [02开放闭合原则](kai_fang_bi_he_yuan_ze.md)
   * [03里氏代换原则](03li_shi_dai_huan_yuan_ze.md)
@@ -87,7 +90,7 @@
   * [VIPER](viper.md)
   * [SOA](soa.md)
   * [AOP](aop.md)
-  * VOP
+  * [VOP](vop.md)
   * [POP](pop.md)
 
 ## 设计模式
@@ -126,8 +129,8 @@
 
 ## 重构&代码整洁
 
-* 重构 
-* 代码整洁
+* [重构 ](.md)
+* [代码整洁](.md)
 * [开始CodeReview](kai_shi_codereview.md)
 * [为什么codeReview](wei_shi_yao_codereview.md)
 
@@ -142,6 +145,7 @@
   * [rc.local开机启动](rclocalkai_ji_qi_dong.md)
   * [linux常用命令](linuxchang_yong_ming_ling.md)
   * [lrzsz上传下载命令](lrzszshang_chuan_xia_zai_ming_ling.md)
+  * [Monitor配置](monitor.md)
 * 工具
   * [Docker](docker.md)
   * [Docker常用命令](dockerchang_yong_ming_ling.md)

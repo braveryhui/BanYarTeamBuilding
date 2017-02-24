@@ -18,10 +18,10 @@ overtrue/wechat 目前最好用的微信开发工具包
 overtrue/package-builder Composer 包构建工具
 [asonge/php-geohash](https://github.com/asonge/php-geohash) geohash的PHP版本
 https://github.com/Seldaek/monolog #日志统计 同类还有seaslog​
-https://github.com/laravel/lumen​      #轻量级的api架构
-https://github.com/chrisboulton/php-resque #php redis实现的消息队列 ​
-
-
-
+[轻量级的api架构​](https://github.com/laravel/lumen)
+[php redis实现的消息队列](https://github.com/chrisboulton/php-resque)
+[swoole 分布式全栈框架](https://github.com/tmtbe/SwooleDistributed)
+[php-cp(php-connect-pool)是用php扩展写的一个数据库连接池。](https://github.com/swoole/php-cp)
+[phpspider -- PHP蜘蛛爬虫框架](https://github.com/owner888/phpspider)
 
 
