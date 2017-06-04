@@ -8,7 +8,7 @@
 ####PHP写法
 php使用clone关键字来实现
 ####实例01
-```
+``` php
 <?php  
   
 //声明一个克隆自身的接口  
@@ -54,7 +54,7 @@ Client::getCloneObj();
 
 ```
 ####实例02
-```
+``` php
 class  Object
 {
   static function  init()

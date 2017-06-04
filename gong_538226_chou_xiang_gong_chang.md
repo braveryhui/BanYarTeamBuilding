@@ -12,7 +12,7 @@
 
 
 #####工厂实例01
-```
+``` php
 <?php
  
 interface Factory {
@@ -63,7 +63,7 @@ print_r($secondProduct->getName());
 ```
 ####工厂实例02
 对于某个变量的延迟初始化也是常常被用到的，对于一个类而言往往并不知道它的哪个功能会被用到，而部分功能往往是仅仅被需要使用一次。通过实体变量来实现使用的时候加载对应的对象。
-```
+``` php
 <?php
  
 interface Product {
@@ -113,8 +113,10 @@ print_r($factory->getFirstProduct()->getName());
 // The first product
 ```
 #####抽象工厂
-```
 在很多情况下，需要为系统中的多个类创建单例的构造方式，这样，可以建立一个通用的抽象父工厂方法：
+
+``` php
+
 <?php
  
 abstract class FactoryAbstract {
